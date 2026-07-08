@@ -4,28 +4,28 @@
 
 gradpath is a course demand planning prototype that uses fake student records, degree requirements, prerequisites, and course offering data to estimate future course demand.
 
-the goal is to help show how many students may need selected theatre courses in future semesters and which students may need priority access to stay on track for graduation.
+The goal is to help show how many students may need selected theatre courses in future semesters and which students may need priority access to stay on track for graduation.
 
-this project uses fictional data only. it does not use real student records.
+This project uses fictional data only. it does not use real student records.
 
 ## Team Members
 
-* sneha lama
-* christopher pyfrom
-* joshua smith
+* Sneha Lama
+* Christopher Pyfrom
+* Joshua Smith
 
 ## Problem
 
-departments cannot always offer every course every semester. some required courses are offered often, while upper-level or concentration-specific courses may be offered less often.
+Departments cannot always offer every course every semester. Some required courses are offered often, while upper-level or concentration-specific courses may be offered less often.
 
-this can become a problem when students need a course to graduate on time, but the department does not have a quick way to estimate future demand.
+This can become a problem when students need a course to graduate on time, but the department does not have a quick way to estimate future demand.
 
-common methods include:
+Common methods include:
 
-1. checking previous enrollment numbers
-2. reviewing student degree audits manually
+1. Checking previous enrollment numbers
+2. Reviewing student degree audits manually
 
-previous enrollment numbers may not show future need accurately. manual review may be more accurate, but it takes too much time.
+Previous enrollment numbers may not show future need accurately. Manual review may be more accurate, but it takes too much time.
 
 gradpath tries to make this easier by using fake student data and course rules to estimate course demand.
 
@@ -116,9 +116,9 @@ gradpath/
 
 ### students.csv
 
-stores fake student information.
+Stores fake student information.
 
-expected columns:
+Expected columns:
 
 ```csv
 student_id,major,concentration,expected_grad_term
@@ -126,9 +126,9 @@ student_id,major,concentration,expected_grad_term
 
 ### student_courses.csv
 
-stores fake completed courses for each student.
+Stores fake completed courses for each student.
 
-expected columns:
+Expected columns:
 
 ```csv
 student_id,course_code,semester_taken
@@ -136,9 +136,9 @@ student_id,course_code,semester_taken
 
 ### degree_requirements.csv
 
-stores required courses by concentration.
+Stores required courses by concentration.
 
-expected columns:
+Expected columns:
 
 ```csv
 concentration,course_code,requirement_type
@@ -146,9 +146,9 @@ concentration,course_code,requirement_type
 
 ### prerequisites.csv
 
-stores course prerequisite rules.
+Stores course prerequisite rules.
 
-expected columns:
+Expected columns:
 
 ```csv
 course_code,prerequisite_course
@@ -156,9 +156,9 @@ course_code,prerequisite_course
 
 ### course_offerings.csv
 
-stores when courses are normally offered.
+Stores when courses are normally offered.
 
-expected columns:
+Expected columns:
 
 ```csv
 course_code,offered_terms
@@ -166,7 +166,7 @@ course_code,offered_terms
 
 ## How the Logic Works
 
-for each student, the system will:
+For each student, the system will:
 
 1. find the student’s concentration
 2. find the courses required for that concentration
@@ -221,9 +221,9 @@ priority: high
 
 ### course_demand_report.csv
 
-this report shows how many students may need each course.
+This report shows how many students may need each course.
 
-example columns:
+Example columns:
 
 ```csv
 course_code,needed_1_semester,needed_2_semesters,needed_3_semesters,needed_4_plus_semesters,total_demand
@@ -231,9 +231,9 @@ course_code,needed_1_semester,needed_2_semesters,needed_3_semesters,needed_4_plu
 
 ### priority_students.csv
 
-this report shows anonymized students who may need priority.
+This report shows anonymized students who may need priority.
 
-example columns:
+Example columns:
 
 ```csv
 student_id,course_code,priority,reason
@@ -255,7 +255,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-on windows:
+On Windows:
 
 ```bash
 .venv\Scripts\activate
@@ -290,7 +290,7 @@ if the streamlit dashboard is added, run:
 streamlit run app.py
 ```
 
-the dashboard may show:
+The dashboard may show:
 
 1. course demand summary
 2. student priority groups
@@ -300,7 +300,7 @@ the dashboard may show:
 
 ## Project Scope
 
-this project will focus on:
+This project will focus on:
 
 1. fake theatre student data
 2. selected required theatre courses
@@ -309,7 +309,7 @@ this project will focus on:
 5. course demand reports
 6. anonymized priority groups
 
-this project will not:
+This project will not:
 
 1. use real student data
 2. replace degreeworks
@@ -322,7 +322,7 @@ this project will not:
 
 ## Current Status
 
-planned features:
+Planned features:
 
 * [ ] create fake csv data
 * [ ] load data with pandas
