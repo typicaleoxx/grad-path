@@ -7,16 +7,16 @@ TAR,Core,Theatre Lit Elective,Course,1,"THE4330,THE4401,THE4434,THE4480"
 TAR,Core,Theatre Hist/Theory Elective,Course,1,"THE3110,THE3111,THE4264,THE4283,THE4574,THE4930"
 TAR,Core,Contemporary Performance Theory,Course,1,THE4562
 TAR,Core,Acting I,Course,1,TPP2110
-TAR,Core,Introduction to Technical Theatre,Course,1,TPA2200
 TAR,Core,Introduction to Entertainment Design,Course,1,TPA3007C
+TAR,Core,Introduction to Technical Theatre,Course,1,TPA2200
 TAR,Core,Intro to Tech Lab,Course,1,TPA2200L
 TAR,Core,Technical Theatre Practicum I,Course,1,TPA2290
 TAR,Core,Lower Level Practicum,Course,1,"TPA2290,TPP2190"
 TAR,Core,Upper Level Practicum,Course,2,"TPA4293,TPP4193"
-TAR,TAP,Acting II,Course,1,TPP3155
-TAR,TAP,Acting III,Course,1,TPP4180
 TAR,TAP,Movement for Actors,Course,1,TPP3510
 TAR,TAP,Voice for Actors,Course,1,TPP3790
+TAR,TAP,Acting II,Course,1,TPP3155
+TAR,TAP,Acting III,Course,1,TPP4180
 TAR,TAP,Ensemble Studio,Course,1,TPP4235
 TAR,TAP,Performance Electives,Credits,9,"TPP3230,TPP3251C,TPP3252C,TPP3580,TPP4221,TPP310,TPP4600,TPP4920,TPP4923"
 TAR,TDAT,Drafting and CAD,Course,1,TPA3208
