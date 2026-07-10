@@ -100,11 +100,18 @@ def load_csv_file(path):
 
 def load_all_data(raw_data_dir=None):
     # load every required csv from the raw data folder.
+    use_default_dir = raw_data_dir is None
     data_dir = Path(raw_data_dir) if raw_data_dir is not None else get_raw_data_dir()
+    static_dir = data_dir.parent / "static"
     data = {}
 
     for data_key, file_name in REQUIRED_FILES.items():
         file_path = data_dir / file_name
+        if use_default_dir and not file_path.exists():
+            static_path = static_dir / file_name
+            if static_path.exists():
+                file_path = static_path
+
         if not file_path.exists():
             raise FileNotFoundError(f"missing required file: {file_path}")
 

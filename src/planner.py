@@ -7,18 +7,16 @@ import pandas as pd
 # support package imports and direct execution from the project root.
 try:
     from src.load_data import (
-        COURSE_COLUMNS,
         COURSE_HISTORY_KEYS,
         REQUIRED_FILES,
-        load_csv_file,
+        load_all_data,
     )
     from src.utils import build_course_code, clean_course_number, clean_student_id
 except ModuleNotFoundError:
     from load_data import (
-        COURSE_COLUMNS,
         COURSE_HISTORY_KEYS,
         REQUIRED_FILES,
-        load_csv_file,
+        load_all_data,
     )
     from utils import build_course_code, clean_course_number, clean_student_id
 
@@ -131,32 +129,9 @@ def save_student_course_status(data, output_path=None):
     return destination
 
 
-def _load_course_history():
-    # load only the four raw exports needed to build this intermediate file.
-    raw_data_dir = Path(__file__).resolve().parents[1] / "data" / "raw"
-    data = {}
-
-    for data_key in COURSE_HISTORY_KEYS:
-        file_path = raw_data_dir / REQUIRED_FILES[data_key]
-        if not file_path.exists():
-            raise FileNotFoundError(f"missing required file: {file_path}")
-
-        course_frame = load_csv_file(file_path)
-        missing_columns = [
-            column for column in COURSE_COLUMNS if column not in course_frame.columns
-        ]
-        if missing_columns:
-            raise ValueError(
-                f"{data_key}: missing columns {', '.join(missing_columns)}"
-            )
-        data[data_key] = course_frame
-
-    return data
-
-
 if __name__ == "__main__":
     # run the first intermediate data step from the project root.
-    loaded_data = _load_course_history()
+    loaded_data = load_all_data()
     saved_path = save_student_course_status(loaded_data)
-    row_count = len(build_student_course_status(loaded_data))
+    row_count = len(pd.read_csv(saved_path))
     print(f"saved {row_count} rows to {saved_path}")
