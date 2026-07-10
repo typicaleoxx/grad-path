@@ -11,6 +11,8 @@ from src.load_data import COURSE_HISTORY_KEYS
 from src.planner import (
     build_student_course_status,
     build_student_requirement_status,
+    evaluate_course_requirement,
+    evaluate_credit_requirement,
     get_student_requirements,
     normalize_passing_status,
     parse_accepted_courses,
@@ -177,6 +179,38 @@ def test_get_student_requirements_includes_core_and_concentration():
     assert "TDAT" not in set(result["Conc"])
 
 
+def test_get_student_requirements_supports_mtr_without_concentration():
+    # mtr students without a concentration should keep core and mtr degree rows.
+    student = pd.Series(
+        {"UID": "U00000002", "Theatre Major": "MTR", "Theatre Conc": pd.NA}
+    )
+    requirements = pd.DataFrame(
+        {
+            "Degree": ["MTR", "MTR", "TAR"],
+            "Conc": ["Core", "MTR", "Core"],
+            "Requirement": ["Music Theory", "Voice", "Script Analysis"],
+        }
+    )
+
+    result = get_student_requirements(student, requirements)
+
+    assert set(result["Requirement"]) == {"Music Theory", "Voice"}
+
+
+def test_course_requirement_evaluation_matches_cleaned_codes_and_statuses():
+    # direct evaluation should clean codes and report each supported course state.
+    _, _, courses = make_requirement_data()
+
+    complete = evaluate_course_requirement(courses, ["THE2305"])
+    in_progress = evaluate_course_requirement(courses, ["TPP3155"])
+    missing = evaluate_course_requirement(courses, ["TPP4180"])
+
+    assert complete["status"] == "complete"
+    assert complete["matched_course"] == "THE2305"
+    assert in_progress["status"] == "in_progress"
+    assert missing["status"] == "missing"
+
+
 def test_requirement_statuses_match_completed_in_progress_and_missing_courses():
     # course requirements should report the strongest matching course state.
     students, requirements, courses = make_requirement_data()
@@ -204,3 +238,40 @@ def test_credit_requirement_sums_completed_accepted_credits():
 
     assert credit_result["status"] == "complete"
     assert credit_result["matched_course"] == "TPP3230,TPP3251C"
+    assert credit_result["completed_credits"] == 6
+    assert credit_result["in_progress_credits"] == 0
+
+
+def test_credit_requirement_reports_in_progress_credits():
+    # active accepted credits should mark an unfinished credit requirement active.
+    _, _, courses = make_requirement_data()
+
+    result = evaluate_credit_requirement(
+        courses, ["TPP3230", "TPP3155"], required_quantity=6
+    )
+
+    assert result["status"] == "in_progress"
+    assert result["completed_credits"] == 3
+    assert result["in_progress_credits"] == 3
+
+
+def test_requirement_output_columns_and_row_count():
+    # each applicable core or concentration row should produce one output row.
+    students, requirements, courses = make_requirement_data()
+
+    result = build_student_requirement_status(students, requirements, courses)
+
+    assert list(result.columns) == [
+        "student_id",
+        "degree",
+        "concentration",
+        "requirement",
+        "course_or_credit",
+        "quantity",
+        "accepted_courses",
+        "status",
+        "matched_course",
+        "completed_credits",
+        "in_progress_credits",
+    ]
+    assert len(result) == 3

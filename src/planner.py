@@ -55,6 +55,8 @@ REQUIREMENT_OUTPUT_COLUMNS = [
     "accepted_courses",
     "status",
     "matched_course",
+    "completed_credits",
+    "in_progress_credits",
 ]
 
 
@@ -175,6 +177,8 @@ def get_student_requirements(student_row, degree_requirements):
 
     if concentration:
         concentration_matches |= requirement_concentrations.eq(concentration)
+    else:
+        concentration_matches |= requirement_concentrations.isin(["", degree])
 
     return degree_requirements[
         requirement_degrees.eq(degree) & concentration_matches
@@ -192,31 +196,60 @@ def _matched_course_records(student_courses, accepted_courses):
     return student_courses[clean_codes.isin(accepted_set)].assign(course_code=clean_codes)
 
 
-def _course_requirement_result(matched_courses):
-    # completed work takes priority over an in-progress accepted course.
+def _credit_totals(matched_courses):
+    # calculate numeric credit totals for completed and active accepted courses.
     completed = matched_courses[matched_courses["status"] == "complete"]
     in_progress = matched_courses[matched_courses["status"] == "in_progress"]
+    completed_credits = pd.to_numeric(
+        completed["credits"], errors="coerce"
+    ).fillna(0).sum()
+    in_progress_credits = pd.to_numeric(
+        in_progress["credits"], errors="coerce"
+    ).fillna(0).sum()
+    return completed, in_progress, completed_credits, in_progress_credits
+
+
+def evaluate_course_requirement(student_courses, accepted_courses):
+    # completed work takes priority over an in-progress accepted course.
+    matched_courses = _matched_course_records(student_courses, accepted_courses)
+    completed, in_progress, completed_credits, in_progress_credits = (
+        _credit_totals(matched_courses)
+    )
 
     if not completed.empty:
-        return "complete", completed.iloc[0]["course_code"]
-    if not in_progress.empty:
-        return "in_progress", in_progress.iloc[0]["course_code"]
-    return "missing", ""
+        status = "complete"
+        matched_course = completed.iloc[0]["course_code"]
+    elif not in_progress.empty:
+        status = "in_progress"
+        matched_course = in_progress.iloc[0]["course_code"]
+    else:
+        status = "missing"
+        matched_course = ""
+
+    return {
+        "status": status,
+        "matched_course": matched_course,
+        "completed_credits": completed_credits,
+        "in_progress_credits": in_progress_credits,
+    }
 
 
-def _credit_requirement_result(matched_courses, quantity):
+def evaluate_credit_requirement(
+    student_courses, accepted_courses, required_quantity
+):
     # sum completed accepted credits and note accepted work still in progress.
-    completed = matched_courses[matched_courses["status"] == "complete"].copy()
-    in_progress = matched_courses[
-        matched_courses["status"] == "in_progress"
-    ].copy()
-    completed_credits = pd.to_numeric(completed["credits"], errors="coerce").fillna(0)
-    required_credits = pd.to_numeric(pd.Series([quantity]), errors="coerce").fillna(0).iloc[0]
+    matched_courses = _matched_course_records(student_courses, accepted_courses)
+    completed, in_progress, completed_credits, in_progress_credits = (
+        _credit_totals(matched_courses)
+    )
+    required_credits = pd.to_numeric(
+        pd.Series([required_quantity]), errors="coerce"
+    ).fillna(0).iloc[0]
 
-    if completed_credits.sum() >= required_credits:
+    if completed_credits >= required_credits:
         status = "complete"
         matched = completed
-    elif not in_progress.empty:
+    elif in_progress_credits > 0:
         status = "in_progress"
         matched = pd.concat([completed, in_progress], ignore_index=True)
     else:
@@ -224,7 +257,12 @@ def _credit_requirement_result(matched_courses, quantity):
         matched = completed
 
     matched_codes = ",".join(dict.fromkeys(matched["course_code"].tolist()))
-    return status, matched_codes
+    return {
+        "status": status,
+        "matched_course": matched_codes,
+        "completed_credits": completed_credits,
+        "in_progress_credits": in_progress_credits,
+    }
 
 
 def build_student_requirement_status(students_df, requirements_df, course_status_df):
@@ -243,17 +281,18 @@ def build_student_requirement_status(students_df, requirements_df, course_status
             accepted_courses = parse_accepted_courses(
                 requirement_row["Courses Accepted"]
             )
-            matched_courses = _matched_course_records(
-                student_courses, accepted_courses
-            )
             requirement_type = normalize_text(requirement_row["Course or Credit"])
 
             if requirement_type == "credits":
-                status, matched_course = _credit_requirement_result(
-                    matched_courses, requirement_row["Quantity"]
+                result = evaluate_credit_requirement(
+                    student_courses,
+                    accepted_courses,
+                    requirement_row["Quantity"],
                 )
             else:
-                status, matched_course = _course_requirement_result(matched_courses)
+                result = evaluate_course_requirement(
+                    student_courses, accepted_courses
+                )
 
             rows.append(
                 {
@@ -267,8 +306,10 @@ def build_student_requirement_status(students_df, requirements_df, course_status
                     "course_or_credit": requirement_row["Course or Credit"],
                     "quantity": requirement_row["Quantity"],
                     "accepted_courses": ",".join(accepted_courses),
-                    "status": status,
-                    "matched_course": matched_course,
+                    "status": result["status"],
+                    "matched_course": result["matched_course"],
+                    "completed_credits": result["completed_credits"],
+                    "in_progress_credits": result["in_progress_credits"],
                 }
             )
 
