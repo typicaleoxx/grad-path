@@ -1,4 +1,4 @@
-# tests student graduation summary and course demand reports from readiness rows.
+# tests student graduation summary, course demand, and priority student reports.
 
 import sys
 from pathlib import Path
@@ -8,7 +8,9 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from src.demand_report import (
+    assign_priority,
     build_course_demand_report,
+    build_priority_students_report,
     build_student_graduation_summary,
     get_graduation_status,
 )
@@ -42,6 +44,20 @@ DEMAND_COLUMNS = [
     "ready_students",
     "blocked_students",
     "total_demand",
+]
+
+PRIORITY_COLUMNS = [
+    "student_id",
+    "student_name",
+    "degree",
+    "concentration",
+    "class_year",
+    "requirement",
+    "need_status",
+    "distance",
+    "semester_bucket",
+    "priority",
+    "reason",
 ]
 
 
@@ -136,6 +152,46 @@ def test_build_course_demand_report_sorts_by_total_demand_descending():
     ]
 
 
+def test_assign_priority_maps_ready_and_blocked_rows():
+    assert assign_priority("missing_ready", "needed_1_semester") == "high"
+    assert assign_priority("missing_ready", "needed_2_semesters") == "medium"
+    assert assign_priority("missing_ready", "needed_3_semesters") == "low"
+    assert assign_priority("missing_ready", "needed_4_plus_semesters") == "low"
+    assert assign_priority("missing_blocked", "needed_1_semester") == "none"
+
+
+def test_build_priority_students_report_keeps_missing_rows_only():
+    readiness_df = pd.DataFrame(
+        [
+            _priority_row("U1", "complete", "needed_1_semester"),
+            _priority_row("U1", "in_progress", "needed_2_semesters"),
+            _priority_row("U1", "missing_ready", "needed_1_semester"),
+            _priority_row("U2", "missing_blocked", "needed_1_semester"),
+        ]
+    )
+
+    result = build_priority_students_report(readiness_df)
+
+    assert list(result.columns) == PRIORITY_COLUMNS
+    assert len(result) == 2
+    assert result["need_status"].tolist() == ["missing_ready", "missing_blocked"]
+
+
+def test_build_priority_students_report_sorts_by_priority_order():
+    readiness_df = pd.DataFrame(
+        [
+            _priority_row("U4", "missing_blocked", "needed_1_semester", "Blocked"),
+            _priority_row("U3", "missing_ready", "needed_3_semesters", "Low"),
+            _priority_row("U1", "missing_ready", "needed_1_semester", "High"),
+            _priority_row("U2", "missing_ready", "needed_2_semesters", "Medium"),
+        ]
+    )
+
+    result = build_priority_students_report(readiness_df)
+
+    assert result["priority"].tolist() == ["high", "medium", "low", "none"]
+
+
 # keep fixture rows tiny so the summary math is the thing under test.
 def _readiness_row(student_id, student_name, need_status, class_year=1):
     return {
@@ -164,4 +220,18 @@ def _demand_row(requirement, need_status, semester_bucket):
         "distance": "1/4",
         "semester_bucket": semester_bucket,
         "prereq_ready": "yes",
+    }
+
+
+def _priority_row(student_id, need_status, semester_bucket, requirement="Acting II"):
+    return {
+        "student_id": student_id,
+        "student_name": f"Student {student_id}",
+        "degree": "TAR",
+        "concentration": "TAP",
+        "class_year": 2,
+        "requirement": requirement,
+        "need_status": need_status,
+        "distance": "1/4",
+        "semester_bucket": semester_bucket,
     }

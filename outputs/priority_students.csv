@@ -1,0 +1,65 @@
+student_id,student_name,degree,concentration,class_year,requirement,need_status,distance,semester_bucket,priority,reason
+U00000001,Student 1 Student 1,TAR,TAP,1,Introduction to Entertainment Design,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Movement for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Script Analysis,missing_ready,1/4,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Technical Theatre Practicum I,missing_ready,1/4,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Theatre Hist/Theory Elective,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Theatre History Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Voice for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000004,Student 4 Student 4,TAR,TAP,3,Contemporary Performance Theory,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000004,Student 4 Student 4,TAR,TAP,3,Ensemble Studio,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000004,Student 4 Student 4,TAR,TAP,3,Technical Theatre Practicum I,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000005,Student 5 Student 5,TAR,TAP,3,Acting II,missing_ready,1/3,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000005,Student 5 Student 5,TAR,TAP,3,Movement for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000005,Student 5 Student 5,TAR,TAP,3,Theatre Hist/Theory Elective,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000005,Student 5 Student 5,TAR,TAP,3,Theatre Lit Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000005,Student 5 Student 5,TAR,TAP,3,Upper Level Practicum2,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000008,Student 8 Student 8,TAR,TAP,2,Acting III,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000008,Student 8 Student 8,TAR,TAP,2,Technical Theatre Practicum I,missing_ready,1/3,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000008,Student 8 Student 8,TAR,TAP,2,Theatre Hist/Theory Elective,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000008,Student 8 Student 8,TAR,TAP,2,Theatre Lit Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000008,Student 8 Student 8,TAR,TAP,2,Voice for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Entry Seminar,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Script Analysis,missing_ready,1/4,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Technical Theatre Practicum I,missing_ready,1/3,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Theatre Hist/Theory Elective,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Theatre History Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Theatre Lit Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000011,Student 11 Student 11,TAR,TAP,1,Voice for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Acting II,missing_ready,1/3,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Lower Level Practicum,missing_ready,1/3,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Theatre Hist/Theory Elective,missing_ready,1/1,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Theatre History Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Theatre Lit Elective,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000014,Student 14 Student 14,TAR,TAP,2,Voice for Actors,missing_ready,1/2,needed_1_semester,high,student is ready and this requirement is needed within 1 semester
+U00000001,Student 1 Student 1,TAR,TAP,1,Acting II,missing_blocked,2/4,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Acting III,missing_blocked,3/4,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Contemporary Performance Theory,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Ensemble Studio,missing_blocked,4/4,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Lower Level Practicum,missing_blocked,2/4,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Performance Electives,missing_blocked,9,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Theatre Lit Elective,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Upper Level Practicum,missing_blocked,3/4,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000001,Student 1 Student 1,TAR,TAP,1,Upper Level Practicum2,missing_blocked,4/4,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000004,Student 4 Student 4,TAR,TAP,3,Upper Level Practicum2,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000005,Student 5 Student 5,TAR,TAP,3,Acting III,missing_blocked,2/3,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000005,Student 5 Student 5,TAR,TAP,3,Contemporary Performance Theory,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000005,Student 5 Student 5,TAR,TAP,3,Ensemble Studio,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000005,Student 5 Student 5,TAR,TAP,3,Performance Electives,missing_blocked,9,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000008,Student 8 Student 8,TAR,TAP,2,Contemporary Performance Theory,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000008,Student 8 Student 8,TAR,TAP,2,Ensemble Studio,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000008,Student 8 Student 8,TAR,TAP,2,Performance Electives,missing_blocked,9,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000008,Student 8 Student 8,TAR,TAP,2,Upper Level Practicum,missing_blocked,2/3,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000008,Student 8 Student 8,TAR,TAP,2,Upper Level Practicum2,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Acting II,missing_blocked,2/4,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Acting III,missing_blocked,3/4,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Contemporary Performance Theory,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Ensemble Studio,missing_blocked,4/4,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Upper Level Practicum,missing_blocked,2/3,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000011,Student 11 Student 11,TAR,TAP,1,Upper Level Practicum2,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Acting III,missing_blocked,2/3,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Contemporary Performance Theory,missing_blocked,2/2,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Ensemble Studio,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Performance Electives,missing_blocked,9,needed_4_plus_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Upper Level Practicum,missing_blocked,2/3,needed_2_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing
+U00000014,Student 14 Student 14,TAR,TAP,2,Upper Level Practicum2,missing_blocked,3/3,needed_3_semesters,none,student is currently blocked because an earlier requirement or prerequisite is still missing

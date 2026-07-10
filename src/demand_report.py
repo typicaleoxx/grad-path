@@ -1,4 +1,4 @@
-# builds student graduation summary and course demand reports from readiness data.
+# builds student graduation summary, course demand, and priority student reports.
 
 from pathlib import Path
 
@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_READINESS_PATH = PROJECT_ROOT / "data" / "intermediate" / "student_readiness_status.csv"
 DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "outputs" / "student_graduation_summary.csv"
 DEFAULT_COURSE_DEMAND_PATH = PROJECT_ROOT / "outputs" / "course_demand_report.csv"
+DEFAULT_PRIORITY_PATH = PROJECT_ROOT / "outputs" / "priority_students.csv"
 
 OUTPUT_COLUMNS = [
     "student_id",
@@ -39,6 +40,29 @@ DEMAND_COLUMNS = [
     "blocked_students",
     "total_demand",
 ]
+
+PRIORITY_COLUMNS = [
+    "student_id",
+    "student_name",
+    "degree",
+    "concentration",
+    "class_year",
+    "requirement",
+    "need_status",
+    "distance",
+    "semester_bucket",
+    "priority",
+    "reason",
+]
+
+PRIORITY_REASONS = {
+    "high": "student is ready and this requirement is needed within 1 semester",
+    "medium": "student is ready and this requirement is needed within 2 semesters",
+    "low": "student is ready but this requirement is not the most urgent yet",
+    "none": "student is currently blocked because an earlier requirement or prerequisite is still missing",
+}
+
+PRIORITY_SORT = {"high": 0, "medium": 1, "low": 2, "none": 3}
 
 
 def load_readiness_status(path=None):
@@ -154,6 +178,49 @@ def save_course_demand_report(readiness_path=None, output_path=None):
     return output_path, len(demand_df)
 
 
+def assign_priority(need_status, semester_bucket):
+    if need_status == "missing_blocked":
+        return "none"
+    if need_status != "missing_ready":
+        return ""
+    if semester_bucket == "needed_1_semester":
+        return "high"
+    if semester_bucket == "needed_2_semesters":
+        return "medium"
+    if semester_bucket in ["needed_3_semesters", "needed_4_plus_semesters"]:
+        return "low"
+    return "low"
+
+
+def build_priority_students_report(readiness_df):
+    priority_rows = readiness_df[
+        readiness_df["need_status"].isin(["missing_ready", "missing_blocked"])
+    ].copy()
+    priority_rows["priority"] = priority_rows.apply(
+        lambda row: assign_priority(row["need_status"], row["semester_bucket"]), axis=1
+    )
+    priority_rows["reason"] = priority_rows["priority"].map(PRIORITY_REASONS)
+    priority_rows["priority_sort"] = priority_rows["priority"].map(PRIORITY_SORT)
+
+    # keep the report focused on actionable missing requirements.
+    return (
+        priority_rows[PRIORITY_COLUMNS + ["priority_sort"]]
+        .sort_values(["priority_sort", "student_id", "requirement"])
+        .drop(columns="priority_sort")
+        .reset_index(drop=True)
+    )
+
+
+def save_priority_students_report(readiness_path=None, output_path=None):
+    output_path = Path(output_path) if output_path else DEFAULT_PRIORITY_PATH
+    readiness_df = load_readiness_status(readiness_path)
+    priority_df = build_priority_students_report(readiness_df)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    priority_df.to_csv(output_path, index=False)
+    return output_path, len(priority_df)
+
+
 # keep repeated status counting readable inside each report loop.
 def _count_status(rows, status):
     return int((rows["need_status"] == status).sum())
@@ -172,7 +239,10 @@ def _completion_percent(complete_requirements, total_requirements):
 if __name__ == "__main__":
     summary_path, summary_count = save_student_graduation_summary()
     demand_path, demand_count = save_course_demand_report()
+    priority_path, priority_count = save_priority_students_report()
     print(summary_path)
     print(f"rows written: {summary_count}")
     print(demand_path)
     print(f"rows written: {demand_count}")
+    print(priority_path)
+    print(f"rows written: {priority_count}")
