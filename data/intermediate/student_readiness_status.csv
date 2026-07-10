@@ -1,6 +1,1285 @@
 student_id,degree,concentration,requirement,course_code,need_status,prereq_ready,missing_prerequisites,readiness_reason
-U00000001,TAR,TAP,Acting II,TPP3155,missing,yes,,all prerequisites are complete or in progress
-U00000001,TAR,TAP,Theatre and Culture,THE2000,missing,yes,,no prerequisites listed
-U00000002,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
-U00000002,TAR,TDAT,Drafting and CAD,TPA3208,missing,no,TPA2200,one or more prerequisites are missing
-U00000003,TAR,TDAT,Design Studio,TPA4094C,missing,yes,,all prerequisites are complete or in progress
+U00000002,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000002,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000002,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000002,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000003,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000003,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000005,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000005,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000008,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000008,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000009,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000009,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000011,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000011,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000011,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000012,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000012,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000012,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000013,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000013,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000013,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Acting I,TPP2110,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3155,missing,no,TPP2110,one or more prerequisites are missing
+U00000014,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000014,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000014,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000015,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000015,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000015,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000016,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000016,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Entry Seminar,THE2023,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000017,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000017,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000017,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000018,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000018,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000019,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000019,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000019,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000023,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000023,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000023,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000024,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000024,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000024,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000025,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000025,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000025,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000028,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000028,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000030,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000030,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000030,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000031,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000031,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000031,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000032,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000032,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000032,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000033,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000033,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000033,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Drafting and CAD,TPA3208,missing,no,TPA2200,one or more prerequisites are missing
+U00000036,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000036,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000037,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000037,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000038,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000040,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000040,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000040,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Acting I,TPP2110,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3155,missing,no,TPP2110,one or more prerequisites are missing
+U00000042,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000042,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000042,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000044,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000044,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000044,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000046,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000046,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000046,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000047,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000047,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000047,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000049,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000049,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000051,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000055,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000055,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000055,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000056,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000056,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000056,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000057,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000057,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000057,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000058,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000058,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Drafting and CAD,TPA3208,missing,no,TPA2200,one or more prerequisites are missing
+U00000059,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000059,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000061,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000061,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000061,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000063,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000063,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000063,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000064,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000064,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000064,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000066,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000066,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000066,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000067,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000067,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000067,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000068,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000068,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000068,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Acting I,TPP2110,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3155,missing,no,TPP2110,one or more prerequisites are missing
+U00000069,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000069,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000069,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000071,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000071,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000072,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000072,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000072,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000073,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000073,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE3110,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE3111,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4330,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4401,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4434,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4480,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4264,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4283,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,THE4930,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3510,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3790,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4235,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3230,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3251C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3252C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP3580,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4221,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP310,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4600,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4920,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4923,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA3223C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA3231C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA3289C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4011C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4013C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4045C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4993C,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4298,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPA4293,missing,yes,,no prerequisites listed
+U00000073,TAR,TAA,Theatre Arts Electives Upper Level,TPP4193,missing,yes,,no prerequisites listed
+U00000075,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000075,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Acting I,TPP2110,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3155,missing,no,TPP2110,one or more prerequisites are missing
+U00000076,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000076,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000076,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Acting II,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000077,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000077,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000077,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000079,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000079,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000079,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000080,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000080,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000080,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000081,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000081,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000081,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000082,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000082,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000082,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000083,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000083,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000083,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000087,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Entry Seminar,THE2023,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000089,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000089,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000089,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000091,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000091,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000091,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Introduction to Technical Theatre,TPA2200,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Intro to Tech Lab,TPA2200L,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Drafting and CAD,TPA3208,missing,no,TPA2200,one or more prerequisites are missing
+U00000092,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000092,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Acting I,TPP2110,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000093,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000093,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000095,TAR,TAA,Performance Elective ,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000095,TAR,TAA,Performance Elective ,TPP3510,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3790,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP4235,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3230,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3251C,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3252C,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP3580,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP4221,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP310,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP4600,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP4920,missing,yes,,no prerequisites listed
+U00000095,TAR,TAA,Performance Elective ,TPP4923,missing,yes,,no prerequisites listed
+U00000096,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Script Analysis,THE2305,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre History Elective,THE3110,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre History Elective,THE3111,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Lit Elective,THE4330,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Lit Elective,THE4401,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Lit Elective,THE4434,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Lit Elective,THE4480,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE3110,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE3111,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE4264,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE4283,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE4574,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Theatre Hist/Theory Elective,THE4930,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Introduction to Entertainment Design,TPA3007C,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Technical Theatre Practicum I,TPA2290,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Lower Level Practicum,TPA2290,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Lower Level Practicum,TPP2190,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Upper Level Practicum,TPA4293,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Upper Level Practicum,TPP4193,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Movement for Actors,TPP3510,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Voice for Actors,TPP3790,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Acting II,TPP3155,missing,no,THE2305,one or more prerequisites are missing
+U00000097,TAR,TAP,Acting III,TPP4180,missing,no,TPP3155,one or more prerequisites are missing
+U00000097,TAR,TAP,Ensemble Studio,TPP4235,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP3230,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP3251C,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP3252C,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP3580,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP4221,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP310,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP4600,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP4920,missing,yes,,no prerequisites listed
+U00000097,TAR,TAP,Performance Electives,TPP4923,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Contemporary Performance Theory,THE4562,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Drafting and CAD,TPA3208,missing,yes,,all prerequisites are complete or in progress
+U00000100,TAR,TDAT,Theatre Technology,TPA3223C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Theatre Technology,TPA231C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Theatre Technology,TPA3289C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Theatre Design,TPA4011C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Theatre Design,TPA4013C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Theatre Design,TPA4045C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Portfolio,TPA4993C,missing,yes,,no prerequisites listed
+U00000100,TAR,TDAT,Advanced Design Practicum,TPA4298,missing,yes,,no prerequisites listed
