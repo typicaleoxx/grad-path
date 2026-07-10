@@ -1,0 +1,6 @@
+# this file lists the python packages used by the grad path project.
+pandas
+pytest
+openpyxl
+matplotlib
+streamlit
