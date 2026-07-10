@@ -1,4 +1,4 @@
-# builds student-level graduation summary reports from readiness status data.
+# builds student graduation summary and course demand reports from readiness data.
 
 from pathlib import Path
 
@@ -8,6 +8,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_READINESS_PATH = PROJECT_ROOT / "data" / "intermediate" / "student_readiness_status.csv"
 DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "outputs" / "student_graduation_summary.csv"
+DEFAULT_COURSE_DEMAND_PATH = PROJECT_ROOT / "outputs" / "course_demand_report.csv"
 
 OUTPUT_COLUMNS = [
     "student_id",
@@ -26,6 +27,17 @@ OUTPUT_COLUMNS = [
     "missing_requirements",
     "completion_percent",
     "graduation_status",
+]
+
+DEMAND_COLUMNS = [
+    "requirement",
+    "needed_1_semester",
+    "needed_2_semesters",
+    "needed_3_semesters",
+    "needed_4_plus_semesters",
+    "ready_students",
+    "blocked_students",
+    "total_demand",
 ]
 
 
@@ -93,9 +105,62 @@ def save_student_graduation_summary(readiness_path=None, output_path=None):
     return output_path, len(summary_df)
 
 
-# keep repeated status counting readable inside the student loop.
-def _count_status(student_rows, status):
-    return int((student_rows["need_status"] == status).sum())
+def build_course_demand_report(readiness_df):
+    demand_rows = readiness_df[
+        readiness_df["need_status"].isin(["missing_ready", "missing_blocked"])
+    ]
+    rows = []
+
+    # summarize missing requirements into course-level demand buckets.
+    for requirement, requirement_rows in demand_rows.groupby("requirement", sort=False):
+        ready_students = _count_status(requirement_rows, "missing_ready")
+        blocked_students = _count_status(requirement_rows, "missing_blocked")
+
+        rows.append(
+            {
+                "requirement": requirement,
+                "needed_1_semester": _count_bucket(
+                    requirement_rows, "needed_1_semester"
+                ),
+                "needed_2_semesters": _count_bucket(
+                    requirement_rows, "needed_2_semesters"
+                ),
+                "needed_3_semesters": _count_bucket(
+                    requirement_rows, "needed_3_semesters"
+                ),
+                "needed_4_plus_semesters": _count_bucket(
+                    requirement_rows, "needed_4_plus_semesters"
+                ),
+                "ready_students": ready_students,
+                "blocked_students": blocked_students,
+                "total_demand": ready_students + blocked_students,
+            }
+        )
+
+    return (
+        pd.DataFrame(rows, columns=DEMAND_COLUMNS)
+        .sort_values(["total_demand", "requirement"], ascending=[False, True])
+        .reset_index(drop=True)
+    )
+
+
+def save_course_demand_report(readiness_path=None, output_path=None):
+    output_path = Path(output_path) if output_path else DEFAULT_COURSE_DEMAND_PATH
+    readiness_df = load_readiness_status(readiness_path)
+    demand_df = build_course_demand_report(readiness_df)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    demand_df.to_csv(output_path, index=False)
+    return output_path, len(demand_df)
+
+
+# keep repeated status counting readable inside each report loop.
+def _count_status(rows, status):
+    return int((rows["need_status"] == status).sum())
+
+
+def _count_bucket(rows, bucket):
+    return int((rows["semester_bucket"] == bucket).sum())
 
 
 def _completion_percent(complete_requirements, total_requirements):
@@ -105,6 +170,9 @@ def _completion_percent(complete_requirements, total_requirements):
 
 
 if __name__ == "__main__":
-    saved_path, row_count = save_student_graduation_summary()
-    print(saved_path)
-    print(f"rows written: {row_count}")
+    summary_path, summary_count = save_student_graduation_summary()
+    demand_path, demand_count = save_course_demand_report()
+    print(summary_path)
+    print(f"rows written: {summary_count}")
+    print(demand_path)
+    print(f"rows written: {demand_count}")

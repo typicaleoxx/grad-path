@@ -1,4 +1,4 @@
-# tests student graduation summary totals from readiness status rows.
+# tests student graduation summary and course demand reports from readiness rows.
 
 import sys
 from pathlib import Path
@@ -8,12 +8,13 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from src.demand_report import (
+    build_course_demand_report,
     build_student_graduation_summary,
     get_graduation_status,
 )
 
 
-OUTPUT_COLUMNS = [
+SUMMARY_COLUMNS = [
     "student_id",
     "student_name",
     "degree",
@@ -30,6 +31,17 @@ OUTPUT_COLUMNS = [
     "missing_requirements",
     "completion_percent",
     "graduation_status",
+]
+
+DEMAND_COLUMNS = [
+    "requirement",
+    "needed_1_semester",
+    "needed_2_semesters",
+    "needed_3_semesters",
+    "needed_4_plus_semesters",
+    "ready_students",
+    "blocked_students",
+    "total_demand",
 ]
 
 
@@ -55,7 +67,7 @@ def test_build_student_graduation_summary_creates_one_row_per_student():
     result = build_student_graduation_summary(readiness_df)
 
     assert len(result) == 2
-    assert list(result.columns) == OUTPUT_COLUMNS
+    assert list(result.columns) == SUMMARY_COLUMNS
 
 
 def test_build_student_graduation_summary_calculates_totals():
@@ -82,6 +94,48 @@ def test_build_student_graduation_summary_calculates_totals():
     assert row["graduation_status"] == "close"
 
 
+def test_build_course_demand_report_counts_missing_demand_only():
+    readiness_df = pd.DataFrame(
+        [
+            _demand_row("Acting II", "missing_ready", "needed_1_semester"),
+            _demand_row("Acting II", "missing_blocked", "needed_2_semesters"),
+            _demand_row("Acting II", "complete", "needed_1_semester"),
+            _demand_row("Acting II", "in_progress", "needed_2_semesters"),
+            _demand_row("Script Analysis", "missing_ready", "needed_1_semester"),
+        ]
+    )
+
+    result = build_course_demand_report(readiness_df)
+    acting_row = result[result["requirement"] == "Acting II"].iloc[0]
+
+    assert list(result.columns) == DEMAND_COLUMNS
+    assert acting_row["needed_1_semester"] == 1
+    assert acting_row["needed_2_semesters"] == 1
+    assert acting_row["ready_students"] == 1
+    assert acting_row["blocked_students"] == 1
+    assert acting_row["total_demand"] == 2
+
+
+def test_build_course_demand_report_sorts_by_total_demand_descending():
+    readiness_df = pd.DataFrame(
+        [
+            _demand_row("Lower Demand", "missing_ready", "needed_1_semester"),
+            _demand_row("Higher Demand", "missing_ready", "needed_1_semester"),
+            _demand_row("Higher Demand", "missing_blocked", "needed_3_semesters"),
+            _demand_row("Another Higher Demand", "missing_ready", "needed_4_plus_semesters"),
+            _demand_row("Another Higher Demand", "missing_blocked", "needed_4_plus_semesters"),
+        ]
+    )
+
+    result = build_course_demand_report(readiness_df)
+
+    assert result["requirement"].tolist() == [
+        "Another Higher Demand",
+        "Higher Demand",
+        "Lower Demand",
+    ]
+
+
 # keep fixture rows tiny so the summary math is the thing under test.
 def _readiness_row(student_id, student_name, need_status, class_year=1):
     return {
@@ -95,4 +149,19 @@ def _readiness_row(student_id, student_name, need_status, class_year=1):
         "gpa": 3.4,
         "requirement": "Some Requirement",
         "need_status": need_status,
+    }
+
+
+def _demand_row(requirement, need_status, semester_bucket):
+    return {
+        "student_id": "U1",
+        "student_name": "Student One",
+        "degree": "TAR",
+        "concentration": "TAP",
+        "requirement": requirement,
+        "status_code": "r",
+        "need_status": need_status,
+        "distance": "1/4",
+        "semester_bucket": semester_bucket,
+        "prereq_ready": "yes",
     }
