@@ -4,7 +4,11 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.utils import build_course_code
+# support package imports and direct execution by another source file.
+try:
+    from src.utils import build_course_code
+except ModuleNotFoundError:
+    from utils import build_course_code
 
 
 REQUIRED_FILES = {

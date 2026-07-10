@@ -1,0 +1,1022 @@
+student_id,course_code,course_prefix,course_number,course_title,semester,credits,grade_mode,passing_status,status,source_file
+U00000002,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000002,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000002,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000002,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000002,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000002,THE4283,THE,4283,Architecture and Decoration,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000003,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000003,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000003,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000003,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000003,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000003,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000005,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000005,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000005,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000005,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000005,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000008,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000008,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000008,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000008,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000008,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000009,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000009,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000009,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000009,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000009,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000011,THE2000,THE,2000,Theatre & Culture,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000011,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,ip,in_progress,Train01_THE_Courses.csv
+U00000012,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000012,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000012,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000012,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000012,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000012,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000013,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000013,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000013,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000013,THE3110,THE,3110,Theatre History 1,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000014,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000014,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000014,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000014,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000014,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000014,THE4574,THE,4574,Sport as Performance,,3,R,c,complete,Train01_THE_Courses.csv
+U00000015,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000015,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000015,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000016,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000016,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000016,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000016,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000016,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000017,THE2000,THE,2000,Theatre & Culture,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000018,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000018,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000018,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000018,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000018,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000019,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000023,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000023,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000023,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000023,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000023,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000024,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000024,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000024,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000025,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000025,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000025,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000028,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000028,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000028,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000028,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000028,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000030,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000030,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000030,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000030,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000030,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000031,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000031,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000031,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000032,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000032,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000032,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000032,THE3110,THE,3110,Theatre History 1,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000033,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000033,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000033,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000033,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000033,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000033,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000036,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000036,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000036,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000037,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000037,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000037,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000037,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000037,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000037,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000038,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE4401,THE,4401,American Drama,,3,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE4574,THE,4574,Sport as Performance,,3,R,c,complete,Train01_THE_Courses.csv
+U00000038,THE4562,THE,4562,Contemporary Performance Theory,,3,R,c,complete,Train01_THE_Courses.csv
+U00000040,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000040,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000040,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000040,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000040,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000040,THE4264,THE,4264,History of Costume,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000042,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000042,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000042,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000042,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000042,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000042,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE4574,THE,4574,Sport as Performance,,3,R,c,complete,Train01_THE_Courses.csv
+U00000044,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000046,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000046,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000046,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000046,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000046,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000046,THE4264,THE,4264,History of Costume,,3,R,c,complete,Train01_THE_Courses.csv
+U00000047,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000047,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000047,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000047,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000047,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000049,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000049,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000049,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000049,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000049,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000049,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000051,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE4574,THE,4574,Sport as Performance,,3,R,c,complete,Train01_THE_Courses.csv
+U00000051,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000055,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE4264,THE,4264,History of Costume,,3,R,c,complete,Train01_THE_Courses.csv
+U00000055,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000056,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000056,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000056,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000057,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000057,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000057,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000057,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000057,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000057,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000058,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000058,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000058,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000058,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000058,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000058,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000059,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000059,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000059,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000061,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000061,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000061,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000063,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000063,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000063,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000063,THE3110,THE,3110,Theatre History 1,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000063,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000063,THE4283,THE,4283,Architecture and Decoration,,3,R,c,complete,Train01_THE_Courses.csv
+U00000064,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000064,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000064,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000064,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000064,THE4264,THE,4264,History of Costume,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000066,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000066,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000066,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000067,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000067,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000067,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000067,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000067,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000068,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000068,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000068,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000068,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000068,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000068,THE4574,THE,4574,Sport as Performance,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000069,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000069,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000069,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000069,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000069,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000069,THE4283,THE,4283,Architecture and Decoration,,3,R,c,complete,Train01_THE_Courses.csv
+U00000071,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000071,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000071,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000071,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000071,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000072,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000072,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000072,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000072,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000072,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000073,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000073,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000073,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000075,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000075,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000075,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000075,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000075,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000076,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000076,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000076,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000076,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000076,THE4401,THE,4401,American Drama,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000076,THE4264,THE,4264,History of Costume,,3,R,c,complete,Train01_THE_Courses.csv
+U00000077,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000077,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000077,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000077,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000077,THE4480,THE,4480,Drama-Special Topics,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000077,THE4264,THE,4264,History of Costume,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000079,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000079,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000079,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000079,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000079,THE4434,THE,4434,Caribbean Theatre,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000079,THE4283,THE,4283,Architecture and Decoration,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000080,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000080,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000081,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000081,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000081,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000081,THE3110,THE,3110,Theatre History 1,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000082,THE2000,THE,2000,Theatre & Culture,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000082,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,ip,in_progress,Train01_THE_Courses.csv
+U00000083,THE2000,THE,2000,Theatre & Culture,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000083,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,ip,in_progress,Train01_THE_Courses.csv
+U00000086,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE4434,THE,4434,Caribbean Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE4264,THE,4264,History of Costume,,3,R,c,complete,Train01_THE_Courses.csv
+U00000086,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000087,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE4264,THE,4264,History of Costume,,3,R,c,complete,Train01_THE_Courses.csv
+U00000087,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000089,THE2000,THE,2000,Theatre & Culture,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000091,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000091,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000091,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000091,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000091,THE4434,THE,4434,Caribbean Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000091,THE4574,THE,4574,Sport as Performance,,3,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE4434,THE,4434,Caribbean Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000092,THE3111,THE,3111,Theatre History 2,,3,R,c,complete,Train01_THE_Courses.csv
+U00000093,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000093,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000093,THE2305,THE,2305,Script Analysis,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000095,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000095,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000095,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000095,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000095,THE4330,THE,4330,Shakespeare for the Theatre,,3,R,c,complete,Train01_THE_Courses.csv
+U00000095,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000096,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE3110,THE,3110,Theatre History 1,,3,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE4283,THE,4283,Architecture and Decoration,,3,R,c,complete,Train01_THE_Courses.csv
+U00000096,THE4562,THE,4562,Contemporary Performance Theory,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000097,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000097,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,ip,in_progress,Train01_THE_Courses.csv
+U00000100,THE2000,THE,2000,Theatre & Culture,,3,R,c,complete,Train01_THE_Courses.csv
+U00000100,THE2023,THE,2023,Entry Seminar: Theatre as an Art Form,,1,R,c,complete,Train01_THE_Courses.csv
+U00000100,THE2305,THE,2305,Script Analysis,,3,R,c,complete,Train01_THE_Courses.csv
+U00000100,THE3111,THE,3111,Theatre History 2,,3,R,ip,in_progress,Train01_THE_Courses.csv
+U00000100,THE4480,THE,4480,Drama-Special Topics,,3,R,c,complete,Train01_THE_Courses.csv
+U00000001,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000001,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000001,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000002,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000002,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000003,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000003,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000003,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000004,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000004,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000004,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000005,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000005,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000005,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000006,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000006,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000007,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000007,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000008,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000008,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000008,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000009,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000009,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000009,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000010,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000010,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000010,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000011,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000011,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000012,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000012,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000012,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000013,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000013,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000015,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000015,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000016,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000016,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000016,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000017,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000017,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000018,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000018,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000018,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000019,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000019,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000019,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000020,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000020,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000020,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000021,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000021,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000021,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000022,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000022,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000022,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000023,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000023,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000023,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000024,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000025,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000026,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000026,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000026,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000027,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000027,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000027,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000028,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000028,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000028,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000029,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000029,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000029,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000030,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000030,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000030,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000031,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000031,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000031,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000032,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000032,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000033,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000033,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000034,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000034,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000035,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000036,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000037,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000037,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000038,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000038,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000038,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000039,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000040,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000040,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000041,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000041,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000041,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000043,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000043,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000043,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000044,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000044,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000044,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000045,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000045,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000045,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000046,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000047,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000047,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000047,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000048,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000048,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000048,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000049,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000049,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000049,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000050,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000050,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000050,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000051,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000051,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000051,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000052,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000052,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000052,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000053,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000053,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000054,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000054,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000054,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000055,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000055,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000055,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000056,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000056,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000057,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000057,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000057,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000058,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000058,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000058,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000059,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000060,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000060,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000060,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000061,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000061,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000062,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000062,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000062,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000063,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000063,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000063,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000064,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000064,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000064,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000065,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000065,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000066,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000066,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000066,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000067,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000067,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000067,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000068,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000068,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000068,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000070,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000070,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000070,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000071,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000071,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000071,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000072,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000072,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000072,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000073,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000073,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000074,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000074,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000074,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000075,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000075,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000075,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000077,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000077,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000077,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000078,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000079,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000079,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000080,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000080,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000080,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000081,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000081,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000082,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000082,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000083,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000083,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000084,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000085,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000085,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000085,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000086,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000086,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000086,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000087,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000087,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000087,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000088,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000089,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000089,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000090,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000090,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000091,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000091,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000091,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000092,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000093,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000093,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000093,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000094,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000094,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000094,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000095,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000095,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000095,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000096,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000096,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000096,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000097,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000097,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000098,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000099,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000099,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,ip,in_progress,Train01_TPA_Courses.csv
+U00000100,TPA2200,TPA,2200,Introduction to Technical Theatre,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000100,TPA2200L,TPA,2200L,Intro to Technical Theatre Lab,,1,R,c,complete,Train01_TPA_Courses.csv
+U00000100,TPA3007C,TPA,3007C,Introduction to Entertainment Design,,3,R,c,complete,Train01_TPA_Courses.csv
+U00000001,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000002,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000003,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP3790,TPP,3790,Voice for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000003,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000003,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000004,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000005,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000005,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000005,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000005,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000005,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000005,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000005,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000006,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000007,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000008,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP4180,TPP,4180,Acting 3,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP4221,TPP,4221,Audition Workshop for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000008,TPP4920,TPP,4920,Special Topics in Performance,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000009,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000009,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000009,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000009,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000009,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000009,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000009,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000010,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000011,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000012,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000013,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000015,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000016,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000017,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000018,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000019,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000020,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000021,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000022,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000023,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000023,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000023,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000023,TPP3155,TPP,3155,Acting 2,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000023,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000023,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000024,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000025,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000026,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000027,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000028,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000028,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000028,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000028,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000028,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000028,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000028,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000029,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000030,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000030,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000030,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000030,TPP3155,TPP,3155,Acting 2,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000030,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000030,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000031,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000032,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000033,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000034,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000035,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000036,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000037,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000038,TPP4180,TPP,4180,Acting 3,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP4221,TPP,4221,Audition Workshop for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000038,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000039,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000040,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000041,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000043,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000044,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000045,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000046,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000047,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000047,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000047,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000047,TPP3155,TPP,3155,Acting 2,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000047,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000047,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000048,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000049,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000050,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000051,TPP4180,TPP,4180,Acting 3,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000051,TPP3251C,TPP,3251C,Acting the Song,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000052,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000053,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000054,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000055,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000056,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000057,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000058,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP3790,TPP,3790,Voice for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000058,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000058,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000059,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000060,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000061,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000062,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000063,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000064,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000065,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000066,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000067,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000067,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000067,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000067,TPP3155,TPP,3155,Acting 2,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000067,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000067,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000068,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000068,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP3251C,TPP,3251C,Acting the Song,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000068,TPP3252C,TPP,3252C,Musical Theatre Scene Study,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000070,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000071,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000072,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000072,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000072,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000072,TPP3155,TPP,3155,Acting 2,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000072,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000072,TPP4600,TPP,4600,Writing For The Theatre,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000073,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000074,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000075,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000075,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000075,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000075,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000075,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000075,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000075,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000077,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000077,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000077,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000077,TPP4221,TPP,4221,Audition Workshop for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000077,TPP4310,TPP,4310,Directing 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000078,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000079,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000080,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000081,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000082,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000083,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000084,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000085,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3790,TPP,3790,Voice for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP4180,TPP,4180,Acting 3,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP4235,TPP,4235,Ensemble Studio,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000086,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3251C,TPP,3251C,Acting the Song,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3252C,TPP,3252C,Musical Theatre Scene Study,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP3580,TPP,3580,Special Skills in Movement,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000086,TPP4221,TPP,4221,Audition Workshop for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000087,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP3790,TPP,3790,Voice for Actors,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000087,TPP4180,TPP,4180,Acting 3,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP4310,TPP,4310,Directing 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000087,TPP3251C,TPP,3251C,Acting the Song,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000088,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000089,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000090,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000091,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000092,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000094,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000095,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000096,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3510,TPP,3510,Movement for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3155,TPP,3155,Acting 2,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3790,TPP,3790,Voice for Actors,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP4180,TPP,4180,Acting 3,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000096,TPP4600,TPP,4600,Writing For The Theatre,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP4920,TPP,4920,Special Topics in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP4923,TPP,4923,Music Theatre Workshop,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3230,TPP,3230,Laboratory Workshop in Performance,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3251C,TPP,3251C,Acting the Song,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000096,TPP3252C,TPP,3252C,Musical Theatre Scene Study,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000097,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000098,TPP2110,TPP,2110,Acting 1,,3,R,ip,in_progress,Train01_TPP_Courses.csv
+U00000099,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000100,TPP2110,TPP,2110,Acting 1,,3,R,c,complete,Train01_TPP_Courses.csv
+U00000001,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000001,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000001,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000001,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000003,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000003,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000003,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000003,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000004,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000004,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000004,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000005,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000005,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000005,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000007,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000007,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000008,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000008,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000008,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000008,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000009,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000009,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000009,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000010,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000010,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000010,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000010,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000011,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000012,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000012,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000012,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000012,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000013,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000013,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000015,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000015,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000016,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000016,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000016,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000016,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000017,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000018,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000018,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000018,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000018,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000019,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000019,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000019,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000019,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000020,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000020,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000020,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000021,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000021,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000021,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000021,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000022,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000022,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000022,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000023,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000023,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000023,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000024,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000024,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000025,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000025,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000026,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000026,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000027,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000027,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000027,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000028,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000028,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000028,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000029,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000029,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000029,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000029,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000030,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000030,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000030,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000031,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000031,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000032,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000032,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000036,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000036,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000038,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000038,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000038,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000038,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000043,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000043,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000043,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000044,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000044,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000044,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000044,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000045,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000045,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000047,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000047,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000047,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000048,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000048,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000048,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000048,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000049,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000049,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000049,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000049,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000050,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000050,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000050,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000051,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000051,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000051,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000051,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000052,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000052,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000052,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000052,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000053,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000053,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000054,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000054,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000054,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000054,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000055,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000055,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000055,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000055,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000056,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000056,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000058,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000058,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000058,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000058,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000059,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000059,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000060,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000060,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000060,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000060,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000061,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000061,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000062,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000062,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000063,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000063,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000063,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000063,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000064,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000064,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000064,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000064,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000065,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000065,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000066,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000066,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000067,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000067,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000067,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000068,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000068,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000068,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000068,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000070,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000070,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000070,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000070,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000071,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000071,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000071,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000071,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000072,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000072,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000072,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000073,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000073,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000074,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000074,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000074,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000074,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000075,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000075,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000075,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000077,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000077,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000077,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000080,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000080,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000080,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000080,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000081,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000081,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000082,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000083,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000084,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000085,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000085,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000085,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000085,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000086,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000086,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000086,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000086,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000087,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000087,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000087,TPP4193,TPP,4193,Rehearsal and Performance Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000087,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000088,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000088,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000089,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000090,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000090,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000091,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000091,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000091,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000091,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000093,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000093,TPP2190,TPP,2190,Rehearsal and Performance Practicum 1,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
+U00000094,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000094,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000094,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000094,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000096,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000096,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000096,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000096,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000100,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000100,TPA2290,TPA,2290,Technical Theatre Practicum 1,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000100,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,c,complete,Train01_Practicum_Courses.csv
+U00000100,TPA4293,TPA,4293,Technical Theatre Practicum 2,,1,S,ip,in_progress,Train01_Practicum_Courses.csv
