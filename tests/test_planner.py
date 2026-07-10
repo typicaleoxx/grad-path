@@ -1,4 +1,4 @@
-# this file tests creation and saving of the student course status dataset.
+# this file tests the course and requirement status planning datasets.
 
 import sys
 from pathlib import Path
@@ -10,7 +10,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.load_data import COURSE_HISTORY_KEYS
 from src.planner import (
     build_student_course_status,
+    build_student_requirement_status,
+    get_student_requirements,
     normalize_passing_status,
+    parse_accepted_courses,
     save_student_course_status,
 )
 
@@ -80,3 +83,124 @@ def test_save_student_course_status_writes_csv(tmp_path):
 
     assert saved_path == output_path
     assert len(saved_data) == 4
+
+
+def make_requirement_data():
+    # create one student with core, concentration, and credit requirements.
+    students = pd.DataFrame(
+        {
+            "UID": [" u00000001 "],
+            "Theatre Major": ["TAR"],
+            "Theatre Conc": ["TAP"],
+        }
+    )
+    requirements = pd.DataFrame(
+        [
+            {
+                "Degree": "TAR",
+                "Conc": "Core",
+                "Requirement": "Script Analysis",
+                "Course or Credit": "Course",
+                "Quantity": "1",
+                "Courses Accepted": "THE 2305",
+            },
+            {
+                "Degree": "TAR",
+                "Conc": "TAP",
+                "Requirement": "Acting II",
+                "Course or Credit": "Course",
+                "Quantity": "1",
+                "Courses Accepted": "TPP3155",
+            },
+            {
+                "Degree": "TAR",
+                "Conc": "TAP",
+                "Requirement": "Performance Electives",
+                "Course or Credit": "Credits",
+                "Quantity": "6",
+                "Courses Accepted": "TPP 3230, TPP3251C, TPP3252C",
+            },
+            {
+                "Degree": "TAR",
+                "Conc": "TDAT",
+                "Requirement": "Portfolio",
+                "Course or Credit": "Course",
+                "Quantity": "1",
+                "Courses Accepted": "TPA4993C",
+            },
+        ]
+    )
+    courses = pd.DataFrame(
+        [
+            {
+                "student_id": "U00000001",
+                "course_code": "THE2305",
+                "credits": "3",
+                "status": "complete",
+            },
+            {
+                "student_id": "U00000001",
+                "course_code": "TPP3155",
+                "credits": "3",
+                "status": "in_progress",
+            },
+            {
+                "student_id": "U00000001",
+                "course_code": "TPP3230",
+                "credits": "3",
+                "status": "complete",
+            },
+            {
+                "student_id": "U00000001",
+                "course_code": "TPP3251C",
+                "credits": "3",
+                "status": "complete",
+            },
+        ]
+    )
+    return students, requirements, courses
+
+
+def test_parse_accepted_courses_cleans_course_codes():
+    # spaces and comma padding should not affect accepted course matching.
+    assert parse_accepted_courses("THE 3110, the3111") == ["THE3110", "THE3111"]
+    assert parse_accepted_courses("") == []
+
+
+def test_get_student_requirements_includes_core_and_concentration():
+    # students should receive shared core rows and their own concentration rows.
+    students, requirements, _ = make_requirement_data()
+
+    result = get_student_requirements(students.iloc[0], requirements)
+
+    assert set(result["Conc"]) == {"Core", "TAP"}
+    assert "TDAT" not in set(result["Conc"])
+
+
+def test_requirement_statuses_match_completed_in_progress_and_missing_courses():
+    # course requirements should report the strongest matching course state.
+    students, requirements, courses = make_requirement_data()
+    missing_requirement = requirements.iloc[[1]].copy()
+    missing_requirement["Requirement"] = "Acting III"
+    missing_requirement["Courses Accepted"] = "TPP4180"
+    requirements = pd.concat([requirements, missing_requirement], ignore_index=True)
+
+    result = build_student_requirement_status(students, requirements, courses)
+    statuses = result.set_index("requirement")["status"]
+
+    assert statuses["Script Analysis"] == "complete"
+    assert statuses["Acting II"] == "in_progress"
+    assert statuses["Acting III"] == "missing"
+    matched_courses = result.set_index("requirement")["matched_course"]
+    assert matched_courses["Script Analysis"] == "THE2305"
+
+
+def test_credit_requirement_sums_completed_accepted_credits():
+    # enough completed accepted credits should complete a credit requirement.
+    students, requirements, courses = make_requirement_data()
+
+    result = build_student_requirement_status(students, requirements, courses)
+    credit_result = result[result["requirement"] == "Performance Electives"].iloc[0]
+
+    assert credit_result["status"] == "complete"
+    assert credit_result["matched_course"] == "TPP3230,TPP3251C"

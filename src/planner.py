@@ -1,4 +1,4 @@
-# this file builds and saves the cleaned student course status dataset.
+# this file builds course and requirement status datasets for the planning pipeline.
 
 from pathlib import Path
 
@@ -11,14 +11,24 @@ try:
         REQUIRED_FILES,
         load_all_data,
     )
-    from src.utils import build_course_code, clean_course_number, clean_student_id
+    from src.utils import (
+        build_course_code,
+        clean_course_number,
+        clean_student_id,
+        normalize_text,
+    )
 except ModuleNotFoundError:
     from load_data import (
         COURSE_HISTORY_KEYS,
         REQUIRED_FILES,
         load_all_data,
     )
-    from utils import build_course_code, clean_course_number, clean_student_id
+    from utils import (
+        build_course_code,
+        clean_course_number,
+        clean_student_id,
+        normalize_text,
+    )
 
 
 OUTPUT_COLUMNS = [
@@ -33,6 +43,18 @@ OUTPUT_COLUMNS = [
     "passing_status",
     "status",
     "source_file",
+]
+
+REQUIREMENT_OUTPUT_COLUMNS = [
+    "student_id",
+    "degree",
+    "concentration",
+    "requirement",
+    "course_or_credit",
+    "quantity",
+    "accepted_courses",
+    "status",
+    "matched_course",
 ]
 
 
@@ -129,9 +151,164 @@ def save_student_course_status(data, output_path=None):
     return destination
 
 
+def parse_accepted_courses(value):
+    # split requirement options and remove spacing differences from course codes.
+    if pd.isna(value):
+        return []
+
+    accepted_courses = []
+    for course_code in str(value).split(","):
+        clean_code = "".join(course_code.strip().upper().split())
+        if clean_code:
+            accepted_courses.append(clean_code)
+
+    return accepted_courses
+
+
+def get_student_requirements(student_row, degree_requirements):
+    # include shared core rows and rows for the student's concentration.
+    degree = normalize_text(student_row.get("Theatre Major", ""))
+    concentration = normalize_text(student_row.get("Theatre Conc", ""))
+    requirement_degrees = degree_requirements["Degree"].map(normalize_text)
+    requirement_concentrations = degree_requirements["Conc"].map(normalize_text)
+    concentration_matches = requirement_concentrations.eq("core")
+
+    if concentration:
+        concentration_matches |= requirement_concentrations.eq(concentration)
+
+    return degree_requirements[
+        requirement_degrees.eq(degree) & concentration_matches
+    ].copy()
+
+
+def _matched_course_records(student_courses, accepted_courses):
+    # normalize course codes once more so externally supplied dataframes also match.
+    accepted_set = set(accepted_courses)
+    clean_codes = student_courses["course_code"].map(
+        lambda value: "".join(str(value).strip().upper().split())
+        if not pd.isna(value)
+        else ""
+    )
+    return student_courses[clean_codes.isin(accepted_set)].assign(course_code=clean_codes)
+
+
+def _course_requirement_result(matched_courses):
+    # completed work takes priority over an in-progress accepted course.
+    completed = matched_courses[matched_courses["status"] == "complete"]
+    in_progress = matched_courses[matched_courses["status"] == "in_progress"]
+
+    if not completed.empty:
+        return "complete", completed.iloc[0]["course_code"]
+    if not in_progress.empty:
+        return "in_progress", in_progress.iloc[0]["course_code"]
+    return "missing", ""
+
+
+def _credit_requirement_result(matched_courses, quantity):
+    # sum completed accepted credits and note accepted work still in progress.
+    completed = matched_courses[matched_courses["status"] == "complete"].copy()
+    in_progress = matched_courses[
+        matched_courses["status"] == "in_progress"
+    ].copy()
+    completed_credits = pd.to_numeric(completed["credits"], errors="coerce").fillna(0)
+    required_credits = pd.to_numeric(pd.Series([quantity]), errors="coerce").fillna(0).iloc[0]
+
+    if completed_credits.sum() >= required_credits:
+        status = "complete"
+        matched = completed
+    elif not in_progress.empty:
+        status = "in_progress"
+        matched = pd.concat([completed, in_progress], ignore_index=True)
+    else:
+        status = "missing"
+        matched = completed
+
+    matched_codes = ",".join(dict.fromkeys(matched["course_code"].tolist()))
+    return status, matched_codes
+
+
+def build_student_requirement_status(students_df, requirements_df, course_status_df):
+    # compare each unique student with core and concentration requirements.
+    rows = []
+    students = students_df.drop_duplicates(subset=["UID"], keep="last")
+
+    for _, student in students.iterrows():
+        student_id = clean_student_id(student["UID"])
+        student_requirements = get_student_requirements(student, requirements_df)
+        student_courses = course_status_df[
+            course_status_df["student_id"].map(clean_student_id).eq(student_id)
+        ]
+
+        for _, requirement_row in student_requirements.iterrows():
+            accepted_courses = parse_accepted_courses(
+                requirement_row["Courses Accepted"]
+            )
+            matched_courses = _matched_course_records(
+                student_courses, accepted_courses
+            )
+            requirement_type = normalize_text(requirement_row["Course or Credit"])
+
+            if requirement_type == "credits":
+                status, matched_course = _credit_requirement_result(
+                    matched_courses, requirement_row["Quantity"]
+                )
+            else:
+                status, matched_course = _course_requirement_result(matched_courses)
+
+            rows.append(
+                {
+                    "student_id": student_id,
+                    "degree": str(student["Theatre Major"]).strip(),
+                    "concentration": (
+                        "" if pd.isna(student["Theatre Conc"])
+                        else str(student["Theatre Conc"]).strip()
+                    ),
+                    "requirement": requirement_row["Requirement"],
+                    "course_or_credit": requirement_row["Course or Credit"],
+                    "quantity": requirement_row["Quantity"],
+                    "accepted_courses": ",".join(accepted_courses),
+                    "status": status,
+                    "matched_course": matched_course,
+                }
+            )
+
+    return pd.DataFrame(rows, columns=REQUIREMENT_OUTPUT_COLUMNS)
+
+
+def save_student_requirement_status(
+    students_df,
+    requirements_df,
+    course_status_df,
+    output_path=None,
+):
+    # save requirement matching results in the intermediate data folder.
+    default_path = (
+        Path(__file__).resolve().parents[1]
+        / "data"
+        / "intermediate"
+        / "student_requirement_status.csv"
+    )
+    destination = Path(output_path) if output_path is not None else default_path
+    destination.parent.mkdir(parents=True, exist_ok=True)
+
+    requirement_status = build_student_requirement_status(
+        students_df, requirements_df, course_status_df
+    )
+    requirement_status.to_csv(destination, index=False)
+    return destination
+
+
 if __name__ == "__main__":
-    # run the first intermediate data step from the project root.
+    # rebuild both intermediate planning datasets from the project inputs.
     loaded_data = load_all_data()
-    saved_path = save_student_course_status(loaded_data)
-    row_count = len(pd.read_csv(saved_path))
-    print(f"saved {row_count} rows to {saved_path}")
+    course_path = save_student_course_status(loaded_data)
+    course_status = pd.read_csv(course_path, dtype=str)
+    requirement_path = save_student_requirement_status(
+        loaded_data["theatre_majors"],
+        loaded_data["degree_requirements"],
+        course_status,
+    )
+    requirement_status = pd.read_csv(requirement_path, dtype=str)
+
+    print(f"saved {len(course_status)} rows to {course_path}")
+    print(f"saved {len(requirement_status)} rows to {requirement_path}")
