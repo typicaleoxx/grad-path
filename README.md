@@ -219,6 +219,27 @@ priority: high
 
 ## Expected Outputs
 
+## Prerequisite and Report Prototype
+
+This prototype step uses the small mock requirement dataset in
+`data/intermediate/student_requirement_status.csv`. It can be run separately
+from the full loading and aggregation pipeline.
+
+Create prerequisite readiness data:
+
+```bash
+python src/prerequisite_checker.py
+```
+
+Create the initial course demand and priority student reports:
+
+```bash
+python src/demand_report.py
+```
+
+The prerequisite checker treats every listed prerequisite row as required.
+Complex grouped AND/OR rules are simplified for this prototype.
+
 ### course_demand_report.csv
 
 This report shows how many students may need each course.

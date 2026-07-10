@@ -1,0 +1,6 @@
+student_id,degree,concentration,requirement,course_code,need_status,prereq_ready,missing_prerequisites,readiness_reason
+U00000001,TAR,TAP,Acting II,TPP3155,missing,yes,,all prerequisites are complete or in progress
+U00000001,TAR,TAP,Theatre and Culture,THE2000,missing,yes,,no prerequisites listed
+U00000002,TAR,TAP,Acting III,TPP4180,missing,yes,,all prerequisites are complete or in progress
+U00000002,TAR,TDAT,Drafting and CAD,TPA3208,missing,no,TPA2200,one or more prerequisites are missing
+U00000003,TAR,TDAT,Design Studio,TPA4094C,missing,yes,,all prerequisites are complete or in progress

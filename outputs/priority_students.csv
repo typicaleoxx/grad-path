@@ -1,0 +1,6 @@
+student_id,course_code,priority,reason
+U00000001,TPP3155,high,prerequisites are complete or not required
+U00000001,THE2000,high,prerequisites are complete or not required
+U00000002,TPP4180,high,prerequisites are complete or not required
+U00000002,TPA3208,none,one or more prerequisites are missing
+U00000003,TPA4094C,high,prerequisites are complete or not required
