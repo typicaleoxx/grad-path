@@ -9,17 +9,17 @@
 # End Josh
 
 # Begin Chris
+
 # imports
 from pathlib import Path
 import os
 import pandas as pd
 import itertools
-# from utils import check_readiness
 from utils import prereq_list
 
 
 ####### Change This #########
-debug = True
+debug = False
 filePrefix = "Train01_"
 
 def check_pre_complete (id, accCrsList):
@@ -74,7 +74,6 @@ def check_prereqs(uid, course):
             return ('r', 1, depth)
         else:
             return ('n', max_dist, depth)
-    # pass
 
 
 
@@ -121,7 +120,7 @@ fnTPP = rawDataDir + filePrefix + "TPP_Courses.csv"
 fnPracticum = rawDataDir + filePrefix + "Practicum_Courses.csv"
 fnPrereqs = staticDataDir + "prerequisites.csv"
 fnDegreeReq = staticDataDir + "degree_requirements.csv"
-fnIntermediateTAP = interDataDir + "tap_intermediate_data_test.csv"
+fnIntermediateTAP = interDataDir + "tap_intermediate_data.csv"
 
 #get data frames
 majorCols = ['Term', 'Last Name', 'First Name', 'UID', 'Class', 'Admit Term', 
@@ -145,8 +144,6 @@ df_Practicum_Courses['Used'] = None
 df_Prereqs = pd.read_csv(Path(fnPrereqs))
 df_DegreeReqs = pd.read_csv(Path(fnDegreeReq))
 
-# print(df_THE_Courses['Full Course'])
-
 
 #get degree requirements
 coreReqs = []
@@ -162,34 +159,30 @@ for index, row in df_DegreeReqs.iterrows():
         coreReqs.append(row['Requirement'])
         coreReqs.append((row['Requirement']) + " Dist")
         if (coc == 'Course'):
-            for i in range(2,(qn+1),1):
-                # coreReqs.append((row['Requirement'])+ " " + str(i))
-                coreReqs.append(row['Requirement'])
-                coreReqs.append((row['Requirement']) + " Dist")
+            for i in range(2,(int(qn)+1),1):
+                coreReqs.append((row['Requirement']) + str(i))
+                coreReqs.append((row['Requirement']) + str(i) + " Dist")
     elif (conc == 'TAP'):
         tapReqs.append(row['Requirement'])
         tapReqs.append((row['Requirement']) + " Dist")
         if (coc == 'Course'):
             for i in range(2,(qn+1),1):
-                # tapReqs.append((row['Requirement'])+ " " + str(i))
-                tapReqs.append(row['Requirement'])
-                tapReqs.append((row['Requirement']) + " Dist")
+                tapReqs.append((row['Requirement']) + str(i))
+                tapReqs.append((row['Requirement']) + str(i) + " Dist")
     elif (conc == 'TDAT'):
         tdatReqs.append(row['Requirement'])
         tdatReqs.append((row['Requirement']) + " Dist")
         if (coc == 'Course'):
             for i in range(2,(qn+1),1):
-                # tdatReqs.append((row['Requirement'])+ " " + str(i))
-                tdatReqs.append(row['Requirement'])
-                tdatReqs.append((row['Requirement']) + " Dist")
+                tdatReqs.append((row['Requirement']) + str(i))
+                tdatReqs.append((row['Requirement']) + str(i) + " Dist")
     elif (conc == 'TAA'):
         taaReqs.append(row['Requirement'])
         taaReqs.append((row['Requirement']) + " Dist")
         if (coc == 'Course'):
             for i in range(2,(qn+1),1):
-                # taaReqs.append((row['Requirement'])+ " " + str(i))
-                taaReqs.append(row['Requirement'])
-                taaReqs.append((row['Requirement']) + " Dist")
+                taaReqs.append((row['Requirement']) + str(i))
+                taaReqs.append((row['Requirement']) + str(i) + " Dist")
 
 
 #setup intermediate file
@@ -221,10 +214,9 @@ def check_pre_complete (id, accCrsList):
                                   (df_THE_Courses['Used'] == 'y'))
     complete = df_THE_Courses.loc[condition]
     if len(complete) > 0:
-        print(complete)
         firstIndex = df_THE_Courses[condition].index[0]
-        # df_THE_Courses.loc[firstIndex, 'Used'] = 'y'
         if debug:
+            print(complete)
             print(df_THE_Courses.loc[firstIndex, 'Full Course'])
             print(df_THE_Courses.loc[firstIndex, 'Passing'])
         return df_THE_Courses.loc[firstIndex, 'Passing']
@@ -234,10 +226,9 @@ def check_pre_complete (id, accCrsList):
                                   (df_TPA_Courses['Used'] == 'y'))
         complete = df_TPA_Courses.loc[condition]
         if len(complete) > 0:
-            print(complete)
             firstIndex = df_TPA_Courses[condition].index[0]
-            # df_TPA_Courses.loc[firstIndex, 'Used'] = 'y'
             if debug:
+                print(complete)
                 print(df_TPA_Courses.loc[firstIndex, 'Full Course'])
                 print(df_TPA_Courses.loc[firstIndex, 'Passing'])
             return df_TPA_Courses.loc[firstIndex, 'Passing']
@@ -247,10 +238,9 @@ def check_pre_complete (id, accCrsList):
                                   (df_TPP_Courses['Used'] == 'y'))
             complete = df_TPP_Courses.loc[condition]
             if len(complete) > 0:
-                print(complete)
                 firstIndex = df_TPP_Courses[condition].index[0]
-                # df_TPP_Courses.loc[firstIndex, 'Used'] = 'y'
                 if debug:
+                    print(complete)
                     print(df_TPP_Courses.loc[firstIndex, 'Full Course'])
                     print(df_TPP_Courses.loc[firstIndex, 'Passing'])
                 return df_TPP_Courses.loc[firstIndex, 'Passing']
@@ -260,10 +250,9 @@ def check_pre_complete (id, accCrsList):
                                   (df_Practicum_Courses['Used'] == 'y'))
                 complete = df_Practicum_Courses.loc[condition]
                 if len(complete) > 0:
-                    print(complete)
                     firstIndex = df_Practicum_Courses[condition].index[0]
-                    # df_Practicum_Courses.loc[firstIndex, 'Used'] = 'y'
                     if debug:
+                        print(complete)
                         print(df_Practicum_Courses.loc[firstIndex, 'Full Course'])
                         print(df_Practicum_Courses.loc[firstIndex, 'Passing'])
                     return df_Practicum_Courses.loc[firstIndex, 'Passing']
@@ -277,10 +266,10 @@ def check_complete (id, accCrsList):
                                   (df_THE_Courses['Used'] != 'y'))
     complete = df_THE_Courses.loc[condition]
     if len(complete) > 0:
-        print(complete)
         firstIndex = df_THE_Courses[condition].index[0]
         df_THE_Courses.loc[firstIndex, 'Used'] = 'y'
         if debug:
+            print(complete)
             print(df_THE_Courses.loc[firstIndex, 'Full Course'])
             print(df_THE_Courses.loc[firstIndex, 'Passing'])
         return df_THE_Courses.loc[firstIndex, 'Passing']
@@ -290,10 +279,10 @@ def check_complete (id, accCrsList):
                                   (df_TPA_Courses['Used'] != 'y'))
         complete = df_TPA_Courses.loc[condition]
         if len(complete) > 0:
-            print(complete)
             firstIndex = df_TPA_Courses[condition].index[0]
             df_TPA_Courses.loc[firstIndex, 'Used'] = 'y'
             if debug:
+                print(complete)
                 print(df_TPA_Courses.loc[firstIndex, 'Full Course'])
                 print(df_TPA_Courses.loc[firstIndex, 'Passing'])
             return df_TPA_Courses.loc[firstIndex, 'Passing']
@@ -303,10 +292,10 @@ def check_complete (id, accCrsList):
                                   (df_TPP_Courses['Used'] != 'y'))
             complete = df_TPP_Courses.loc[condition]
             if len(complete) > 0:
-                print(complete)
                 firstIndex = df_TPP_Courses[condition].index[0]
                 df_TPP_Courses.loc[firstIndex, 'Used'] = 'y'
                 if debug:
+                    print(complete)
                     print(df_TPP_Courses.loc[firstIndex, 'Full Course'])
                     print(df_TPP_Courses.loc[firstIndex, 'Passing'])
                 return df_TPP_Courses.loc[firstIndex, 'Passing']
@@ -316,15 +305,100 @@ def check_complete (id, accCrsList):
                                   (df_Practicum_Courses['Used'] != 'y'))
                 complete = df_Practicum_Courses.loc[condition]
                 if len(complete) > 0:
-                    print(complete)
                     firstIndex = df_Practicum_Courses[condition].index[0]
                     df_Practicum_Courses.loc[firstIndex, 'Used'] = 'y'
                     if debug:
+                        print(complete)
                         print(df_Practicum_Courses.loc[firstIndex, 'Full Course'])
                         print(df_Practicum_Courses.loc[firstIndex, 'Passing'])
                     return df_Practicum_Courses.loc[firstIndex, 'Passing']
                 else:
                     return None
+                
+def check_num_complete (id, accCrsList, req):
+    reqCredits = df_DegreeReqs.loc[df_DegreeReqs['Requirement'] == req, 'Quantity' ].values[0]
+    creditsNeeded = reqCredits
+    ip_flag = False
+    condition = ((df_THE_Courses['Full Course'].isin(accCrsList)) &
+                                  (df_THE_Courses['UID'] == id) &
+                                  (df_THE_Courses['Used'] != 'y'))
+    complete = df_THE_Courses.loc[condition]
+    for index in range(0, len(complete), 1):
+        if creditsNeeded > 0:
+            itemIndex = df_THE_Courses[condition].index[index]
+            itemCredits = df_THE_Courses.loc[itemIndex, 'Credits']
+            creditsNeeded -= itemCredits
+            if (df_THE_Courses.loc[itemIndex, 'Passing'] == 'ip'):
+                ip_flag = True
+            df_THE_Courses.loc[itemIndex, 'Used'] = 'y'
+        else:
+            break
+    if creditsNeeded > 0:
+        condition = ((df_TPA_Courses['Full Course'].isin(accCrsList)) &
+                                  (df_TPA_Courses['UID'] == id) &
+                                  (df_TPA_Courses['Used'] != 'y'))
+        complete = df_TPA_Courses.loc[condition]
+        for index in range(0, len(complete), 1):
+            if creditsNeeded > 0:
+                itemIndex = df_TPA_Courses[condition].index[index]
+                itemCredits = df_TPA_Courses.loc[itemIndex, 'Credits']
+                creditsNeeded -= itemCredits
+                if (df_TPA_Courses.loc[itemIndex, 'Passing'] == 'ip'):
+                    ip_flag = True
+                df_TPA_Courses.loc[itemIndex, 'Used'] = 'y'
+            else:
+                break
+    if creditsNeeded > 0:
+        condition = ((df_TPP_Courses['Full Course'].isin(accCrsList)) &
+                                  (df_TPP_Courses['UID'] == id) &
+                                  (df_TPP_Courses['Used'] != 'y'))
+        complete = df_TPP_Courses.loc[condition]
+        for index in range(0, len(complete), 1):
+            if creditsNeeded > 0:
+                itemIndex = df_TPP_Courses[condition].index[index]
+                itemCredits = df_TPP_Courses.loc[itemIndex, 'Credits']
+                creditsNeeded -= itemCredits
+                if (df_TPP_Courses.loc[itemIndex, 'Passing'] == 'ip'):
+                    ip_flag = True
+                df_TPP_Courses.loc[itemIndex, 'Used'] = 'y'
+            else:
+                break
+    if creditsNeeded > 0:
+        condition = ((df_Practicum_Courses['Full Course'].isin(accCrsList)) &
+                                  (df_Practicum_Courses['UID'] == id) &
+                                  (df_Practicum_Courses['Used'] != 'y'))
+        complete = df_Practicum_Courses.loc[condition]
+        for index in range(0, len(complete), 1):
+            if creditsNeeded > 0:
+                itemIndex = df_Practicum_Courses[condition].index[index]
+                itemCredits = df_Practicum_Courses.loc[itemIndex, 'Credits']
+                creditsNeeded -= itemCredits
+                if (df_Practicum_Courses.loc[itemIndex, 'Passing'] == 'ip'):
+                    ip_flag = True
+                df_Practicum_Courses.loc[itemIndex, 'Used'] = 'y'
+            else:
+                break
+    status = None
+    if creditsNeeded == 0:
+        status = ('c', 0, 0)
+    else:
+        if (ip_flag):
+            status = ('ip', creditsNeeded, reqCredits)
+        else:
+            status = ('n', creditsNeeded, reqCredits)
+    return status
+    
+def check_Practicum(id):
+    accCrsList = ['TPA2290', 'TPP2190', 'TPA4293', 'TPP4193']
+    condition = ((df_Practicum_Courses['Full Course'].isin(accCrsList)) &
+                                  (df_Practicum_Courses['UID'] == id) &
+                                  (df_Practicum_Courses['Used'] != 'y'))
+    complete = df_Practicum_Courses.loc[condition]
+    pracNeeded = 4 - len(complete)
+    if (pracNeeded > 0):
+        return pracNeeded
+    else:
+        return 0
 
 
 
@@ -337,22 +411,36 @@ for index, row in df_tapIntermediate.iterrows():
     if debug and index >6:
         break
     curUID = row['UID']
-    print("\n\n\n*************", curUID, "************\n")
+    if debug:
+        print("\n\n\n*************", curUID, "************\n")
 
     curDist = 0
+    pracNeeded = 4
     for col in coreReqs:
         if not (col.endswith("Dist")):
-            acceptCourses = (df_DegreeReqs.loc[df_DegreeReqs['Requirement'] == col, 'Courses Accepted'].values[0]).split(",")
+            acceptCourses = (df_DegreeReqs.loc[df_DegreeReqs['Requirement'] == (col[:-1] if (col[-1]).isnumeric() else col), 'Courses Accepted'].values[0]).split(",")
             if debug:
                 print("Req:" + col + " Courses:" + str(acceptCourses))
-            status = check_complete(curUID, acceptCourses)
-            if (status != None):
-                df_tapIntermediate.loc[index, col] = status
-                curDist = 0
+            if (col == 'Technical Theatre Practicum I' or col == 'Lower Level Practicum' or col == 'Upper Level Practicum' or col == 'Upper Level Practicum2'):
+                if (col == 'Technical Theatre Practicum I'):
+                    pracNeeded = check_Practicum(curUID)
+                status = check_complete(curUID, acceptCourses)
+                if (status != None):
+                    df_tapIntermediate.loc[index, col] = status
+                    curDist = 0
+                else:
+                    status = check_readiness(curUID, acceptCourses) 
+                    curDist = str(status[1]) + "/" + str(pracNeeded)
+                    df_tapIntermediate.loc[index, col] = status[0]
             else:
-                status = check_readiness(curUID, acceptCourses) 
-                curDist = str(status[1]) + "/" + str(status[2])
-                df_tapIntermediate.loc[index, col] = status[0]
+                status = check_complete(curUID, acceptCourses)
+                if (status != None):
+                    df_tapIntermediate.loc[index, col] = status
+                    curDist = 0
+                else:
+                    status = check_readiness(curUID, acceptCourses) 
+                    curDist = str(status[1]) + "/" + str(status[2])
+                    df_tapIntermediate.loc[index, col] = status[0]
         else:
             df_tapIntermediate.loc[index, col] = curDist
     for col in tapReqs:
@@ -360,75 +448,28 @@ for index, row in df_tapIntermediate.iterrows():
             acceptCourses = (df_DegreeReqs.loc[df_DegreeReqs['Requirement'] == col, 'Courses Accepted'].values[0]).split(",")
             if debug:
                 print("Req:" + col + " Courses:" + str(acceptCourses))
-            status = check_complete(curUID, acceptCourses)
-            if (status != None):
-                df_tapIntermediate.loc[index, col] = status
-                curDist = 0
-            else:
-                status = check_readiness(curUID, acceptCourses) 
-                curDist = str(status[1]) + "/" + str(status[2])
+            if col == 'Performance Electives':
+                status = check_num_complete(curUID, acceptCourses, col)
+                if status[0] == 'c':
+                    curDist = 0
+                else:
+                    curDist = str(status[1]) + "/" + str(status[2])
                 df_tapIntermediate.loc[index, col] = status[0]
+            else:
+                status = check_complete(curUID, acceptCourses)
+                if (status != None):
+                    df_tapIntermediate.loc[index, col] = status
+                    curDist = 0
+                else:
+                    status = check_readiness(curUID, acceptCourses) 
+                    curDist = str(status[1]) + "/" + str(status[2])
+                    df_tapIntermediate.loc[index, col] = status[0]
         else:
             df_tapIntermediate.loc[index, col] = curDist
 
 
             
 df_tapIntermediate.to_csv(fnIntermediateTAP, index=False)
-
-# def check_prereqs(uid, course):
-#     max_dist = 1
-#     chklst = prereq_list.get(course)
-#     if chklst == None:
-#         return ('r', 1, 1)
-#     else:
-#         depth = 0
-#         and_flag = True
-#         for ind, req_list in enumerate(chklst):
-#             if ind == 0:
-#                 depth = req_list
-#             else:
-#                 if req_list[0] == 'OR':
-#                     or_flag = False
-#                     min_dist = 1
-#                     for crs in req_list[1:]:
-#                         stat = check_complete(uid, [crs])
-#                         if (stat == 'c') or (stat == 'ip'):
-#                             or_flag = True
-#                             break
-#                         else:
-#                             stat = check_prereqs(uid, crs)
-#                             min_dist = min(min_dist, stat[2]+1)
-#                     if or_flag == False:
-#                         and_flag = False
-#                     max_dist = max(max_dist, min_dist)
-#                 elif req_list[0] == 'AND':
-#                     for crs in req_list[1:]:
-#                         stat = check_complete(uid, [crs])
-#                         if (stat == 'c') or (stat == 'ip'):
-#                             pass
-#                         else:
-#                             and_flag = False
-#                             stat = check_prereqs(uid, crs)
-#                             max_dist = max(max_dist, stat[2]+1)
-#         depth = depth + (max_dist-1)
-#         if and_flag:
-#             return ('r', 1, depth)
-#         else:
-#             return ('n', max_dist, depth)
-        
-
-# def check_readiness(uid, courses, requirement, df_curRow) :
-#     min_dist = 1
-#     min_depth = 99
-#     for course in courses:
-#         status = check_prereqs(uid, course)
-#         min_dist = min(min_dist, status[1])
-#         min_depth = min(min_depth, status[2])
-#     if min_dist == 1:
-#         return ('r', min_dist, min_depth)
-#     else:
-#         return ('n', min_dist, min_depth)
-
-
+print("Intermediate Data File...Process Complete!")
 
 # End Chris
