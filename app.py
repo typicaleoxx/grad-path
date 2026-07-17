@@ -29,11 +29,11 @@ def load_data():
 
 
 def show_missing_file_message(paths):
-    st.error("missing dashboard data files")
-    st.write("run these commands first:")
+    st.error("Missing dashboard data files")
+    st.write("Run these commands first:")
     st.code("python src/prerequisite_checker.py\npython src/demand_report.py", language="bash")
     for path in paths:
-        st.write(f"missing: {path.relative_to(ROOT)}")
+        st.write(f"Missing: {path.relative_to(ROOT)}")
 
 
 def metric_row(metrics):
@@ -54,7 +54,7 @@ def apply_multiselect_filter(df, column, label):
 
 
 def show_overview(summary_df, priority_df):
-    st.header("1. overview")
+    st.header("1. Overview")
     total_missing = int(summary_df["missing_requirements"].sum())
     ready_missing = int(summary_df["ready_missing_requirements"].sum())
     blocked_missing = int(summary_df["blocked_missing_requirements"].sum())
@@ -63,94 +63,94 @@ def show_overview(summary_df, priority_df):
 
     metric_row(
         [
-            ("total students", len(summary_df)),
-            ("total missing requirements", total_missing),
-            ("ready missing requirements", ready_missing),
-            ("blocked missing requirements", blocked_missing),
-            ("average completion percent", average_completion),
-            ("high priority rows", high_priority),
+            ("Total Students", len(summary_df)),
+            ("Total Missing Requirements", total_missing),
+            ("Ready Missing Requirements", ready_missing),
+            ("Blocked Missing Requirements", blocked_missing),
+            ("Average Completion Percent", average_completion),
+            ("High Priority Rows", high_priority),
         ]
     )
 
 
 def show_course_demand(demand_df):
-    st.header("2. course demand analytics")
-    st.subheader("course demand report")
+    st.header("2. Course Demand Analytics")
+    st.subheader("Course Demand Report")
     st.dataframe(demand_df, use_container_width=True)
 
-    st.subheader("top demanded requirements")
+    st.subheader("Top Demanded Requirements")
     st.dataframe(demand_df.head(10), use_container_width=True)
 
-    st.subheader("total demand by requirement")
+    st.subheader("Total Demand by Requirement")
     st.bar_chart(demand_df.set_index("requirement")["total_demand"])
 
-    st.subheader("needed within 1 semester")
+    st.subheader("Needed Within 1 Semester")
     st.bar_chart(demand_df.set_index("requirement")["needed_1_semester"])
 
-    st.subheader("needed within 2 semesters")
+    st.subheader("Needed Within 2 Semesters")
     st.bar_chart(demand_df.set_index("requirement")["needed_2_semesters"])
 
-    st.subheader("ready vs blocked students")
+    st.subheader("Ready vs Blocked Students")
     st.bar_chart(demand_df.set_index("requirement")[["ready_students", "blocked_students"]])
 
 
 def show_graduation_progress(summary_df):
-    st.header("3. student graduation progress")
+    st.header("3. Student Graduation Progress")
     filtered = summary_df.copy()
-    filtered = apply_multiselect_filter(filtered, "degree", "degree")
-    filtered = apply_multiselect_filter(filtered, "concentration", "concentration")
-    filtered = apply_multiselect_filter(filtered, "graduation_status", "graduation status")
+    filtered = apply_multiselect_filter(filtered, "degree", "Degree")
+    filtered = apply_multiselect_filter(filtered, "concentration", "Concentration")
+    filtered = apply_multiselect_filter(filtered, "graduation_status", "Graduation Status")
 
     st.dataframe(filtered, use_container_width=True)
-    st.subheader("completion percent by student")
+    st.subheader("Completion Percent by Student")
     st.bar_chart(filtered.set_index("student_id")["completion_percent"])
 
-    st.subheader("missing requirements by student")
+    st.subheader("Missing Requirements by Student")
     st.bar_chart(filtered.set_index("student_id")["missing_requirements"])
 
-    st.subheader("graduation status counts")
+    st.subheader("Graduation Status Counts")
     st.bar_chart(filtered["graduation_status"].value_counts())
 
 
 def show_individual_student(summary_df, readiness_df):
-    st.header("4. individual student view")
+    st.header("4. Individual Student View")
     student_ids = filter_options(summary_df, "student_id")
     if not student_ids:
-        st.info("no students available")
+        st.info("No students available")
         return
 
-    student_id = st.selectbox("student_id", student_ids)
+    student_id = st.selectbox("Student ID", student_ids)
     student = summary_df[summary_df["student_id"] == student_id].iloc[0]
     student_rows = readiness_df[readiness_df["student_id"] == student_id]
 
     metric_row(
         [
-            ("completion percent", student["completion_percent"]),
-            ("complete requirements", student["complete_requirements"]),
-            ("in progress requirements", student["in_progress_requirements"]),
-            ("missing requirements", student["missing_requirements"]),
-            ("ready missing requirements", student["ready_missing_requirements"]),
-            ("blocked missing requirements", student["blocked_missing_requirements"]),
+            ("Completion Percent", student["completion_percent"]),
+            ("Complete Requirements", student["complete_requirements"]),
+            ("In-Progress Requirements", student["in_progress_requirements"]),
+            ("Missing Requirements", student["missing_requirements"]),
+            ("Ready Missing Requirements", student["ready_missing_requirements"]),
+            ("Blocked Missing Requirements", student["blocked_missing_requirements"]),
         ]
     )
 
     st.write(
         {
-            "student_name": student["student_name"],
-            "degree": student["degree"],
-            "concentration": student["concentration"],
-            "class_year": student["class_year"],
-            "overall_earned_hours": student["overall_earned_hours"],
-            "gpa": student["gpa"],
-            "graduation_status": student["graduation_status"],
+            "Student Name": student["student_name"],
+            "Degree": student["degree"],
+            "Concentration": student["concentration"],
+            "Class Year": student["class_year"],
+            "Overall Earned Hours": student["overall_earned_hours"],
+            "GPA": student["gpa"],
+            "Graduation Status": student["graduation_status"],
         }
     )
 
     for title, status in [
-        ("complete requirements", "complete"),
-        ("in-progress requirements", "in_progress"),
-        ("ready missing requirements", "missing_ready"),
-        ("blocked missing requirements", "missing_blocked"),
+        ("Complete Requirements", "complete"),
+        ("In-Progress Requirements", "in_progress"),
+        ("Ready Missing Requirements", "missing_ready"),
+        ("Blocked Missing Requirements", "missing_blocked"),
     ]:
         st.subheader(title)
         st.dataframe(
@@ -159,16 +159,16 @@ def show_individual_student(summary_df, readiness_df):
 
 
 def show_priority_students(priority_df):
-    st.header("5. priority students")
+    st.header("5. Priority Students")
     filtered = priority_df.copy()
-    filtered = apply_multiselect_filter(filtered, "priority", "priority")
-    filtered = apply_multiselect_filter(filtered, "requirement", "requirement")
-    filtered = apply_multiselect_filter(filtered, "student_id", "student_id")
+    filtered = apply_multiselect_filter(filtered, "priority", "Priority")
+    filtered = apply_multiselect_filter(filtered, "requirement", "Requirement")
+    filtered = apply_multiselect_filter(filtered, "student_id", "Student ID")
     st.dataframe(filtered, use_container_width=True)
 
 
 def show_data_previews(data):
-    st.header("6. data previews")
+    st.header("6. Data Previews")
     names = {
         "readiness": "student_readiness_status.csv",
         "summary": "student_graduation_summary.csv",
