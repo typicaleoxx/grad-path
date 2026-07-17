@@ -98,8 +98,8 @@ def get_semester_bucket(distance_value):
     distance = str(distance_value).strip()
     if not distance or distance == "0":
         return ""
-    if distance == "9":
-        return "needed_4_plus_semesters"
+    # if distance == "9":
+    #     return "needed_4_plus_semesters"
     if "/" in distance:
         first_value = distance.split("/", 1)[0]
         if first_value.isdigit():

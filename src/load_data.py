@@ -68,7 +68,7 @@ fnTPP = rawDataDir + filePrefix + "TPP_Courses.csv"
 fnPracticum = rawDataDir + filePrefix + "Practicum_Courses.csv"
 fnPrereqs = staticDataDir + "prerequisites.csv"
 fnDegreeReq = staticDataDir + "degree_requirements.csv"
-fnIntermediateTAP = interDataDir + "tap_intermediate_data.csv"
+fnIntermediateTAP = interDataDir + "tap_pre_intermediate_data.csv"
 
 #get data frames
 majorCols = ['Term', 'Last Name', 'First Name', 'UID', 'Class', 'Admit Term', 
