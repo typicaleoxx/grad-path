@@ -398,7 +398,7 @@ This project will not:
 
 ## Current Status
 
-Planned features:
+Current Features:
 
 * [x] Create fake csv data
 * [x] Load data with pandas
@@ -409,7 +409,9 @@ Planned features:
 * [x] Estimate course need categories
 * [x] Generate course demand report
 * [x] Generate priority student report
-* [x] Add streamlit dashboard
+* [x] Add Streamlit Dashboard
+* [ ] Containerize the application with Docker
+* [ ] Add Docker build and run documentation
 
 ## Final Goal
 
