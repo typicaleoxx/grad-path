@@ -33,6 +33,8 @@ import os
 import pandas as pd
 import itertools
 from utils import prereq_list
+import subprocess
+import sys
 
 
 ####### Change This #########
@@ -573,3 +575,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # build pre_intermediate_data files
+    subprocess.run(["python3", "./src/grad_dist.py"])

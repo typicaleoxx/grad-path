@@ -1,8 +1,0 @@
-student_id,student_name,degree,concentration,class_year,usf_earned_hours,overall_earned_hours,gpa,total_requirements,complete_requirements,in_progress_requirements,ready_missing_requirements,blocked_missing_requirements,missing_requirements,completion_percent,graduation_status
-U00000001,Student 1 Student 1,TAR,TAP,1,0,6,,21,0,5,7,9,16,0.0,needs planning
-U00000004,Student 4 Student 4,TAR,TAP,3,63,66,3.49,21,13,4,3,1,4,61.9,moderate remaining
-U00000005,Student 5 Student 5,TAR,TAP,3,15,68,3.76,21,6,6,5,4,9,28.57,needs planning
-U00000008,Student 8 Student 8,TAR,TAP,2,30,30,2.78,21,9,2,5,5,10,42.86,needs planning
-U00000010,Student 10 Student 10,TAR,TAP,4,47,107,2.98,21,17,4,0,0,0,80.95,ready or nearly complete
-U00000011,Student 11 Student 11,TAR,TAP,1,12,12,3.75,21,3,5,7,6,13,14.29,needs planning
-U00000014,Student 14 Student 14,TAR,TAP,2,33,36,2.98,21,8,1,6,6,12,38.1,needs planning

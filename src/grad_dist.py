@@ -24,8 +24,8 @@
 from pathlib import Path
 import os
 import pandas as pd
-import subprocess
-import sys
+# import subprocess
+# import sys
 
 
 ####### Change This #########
@@ -215,7 +215,7 @@ def update_crs_dist(sem, df, index):
 #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #
 def main():
     # build pre_intermediate_data files
-    subprocess.run(["python3", "./src/load_data.py"])
+    # subprocess.run(["python3", "./src/load_data.py"])
 
     #process each student in data frame
     for ind, row in df_intermediate_tap.iterrows():

@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ### 4. Aggregate the data
 
 ```bash
-python src/grad_dist.py
+python src/load_data.py
 ```
 
 ### 5. Run the Main Report Script
