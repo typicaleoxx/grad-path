@@ -1,0 +1,22 @@
+# Git stuff
+.gitignore
+.git/
+
+# Ignore documentation
+*.md
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local project outputs and intermediate data
+data/intermediate/*
+!data/intermediate/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Python environment and caching
+.venv/
+__pycache__/
+*.py[codz]
+*.egg-info/
+.pytest_cache/
