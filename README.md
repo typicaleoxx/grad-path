@@ -20,43 +20,22 @@ This project uses fictional data only. It does not use real student records.
 
 ```bash
 git clone <repository-url>
-cd gradpath
+cd grad-path
 ```
 
-### 2. Create a Virtual Environment
-On Mac or Linux:
-
+### 2. Build the Docker Image
+The image's name is: **gradpath**.
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+docker build -t gradpath .
 ```
 
-On Windows:
-
+### 3. Build the Container from the Image
+The container's name is: **gradpath-test**.
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
+docker run --name gradpath-test -p 8501:8501 gradpath
 ```
 
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Aggregate the data
-
-```bash
-python src/load_data.py
-```
-
-### 5. Run the Main Report Script
-
-```bash
-python src/demand_report.py
-```
-
-### 6. Check the Output Files
+### 4. Check the Output Files
 
 The generated reports should appear inside the `outputs/` folder.
 
@@ -65,7 +44,7 @@ outputs/course_demand_report.csv
 outputs/priority_students.csv
 ```
 
-### Post-Intermediate Analytics
+#### Post-Intermediate Analytics
 
 The post-intermediate analytics step starts from `data/intermediate/tap_intermediate_data.csv`. This file already contains each student's requirement status in a wide format. The project converts it into `student_readiness_status.csv`, then creates graduation progress, course demand, and priority student reports.
 
@@ -73,13 +52,6 @@ Input file:
 
 ```text
 data/intermediate/tap_intermediate_data.csv
-```
-
-To run this part:
-
-```bash
-python src/prerequisite_checker.py
-python src/demand_report.py
 ```
 
 Generated files:
@@ -97,17 +69,12 @@ To view the dashboard:
 streamlit run app.py
 ```
 
-### Closing the program
+### 5. Closing the program
 Close the dashboard browser window. Then return to the terminal.
 
 Enter [control]C:
 ```bash
 ^c
-```
-
-Exit the virtual environment:
-```bash
-deactivate
 ```
 
 
