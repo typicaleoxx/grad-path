@@ -383,8 +383,8 @@ Current Features:
 * [x] Generate course demand report
 * [x] Generate priority student report
 * [x] Add Streamlit Dashboard
-* [ ] Containerize the application with Docker
-* [ ] Add Docker build and run documentation
+* [x] Containerize the application with Docker
+* [x] Add Docker build and run documentation
 
 ## Final Goal
 
