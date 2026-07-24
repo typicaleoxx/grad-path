@@ -2,7 +2,7 @@
 
 ## Project Description
 
-gradpath is a course demand planning prototype that uses fake student records, degree requirements, prerequisites, and course offering data to estimate future course demand.
+gradpath is a course demand planning prototype that uses (fake) student records, degree requirements, prerequisites, and course offering data to estimate future course demand.
 
 The goal is to help show how many students may need selected theatre courses in future semesters and which students may need priority access to stay on track for graduation.
 
@@ -32,7 +32,8 @@ docker build -t gradpath .
 ### 3. Build the Container from the Image
 The container's name is: **gradpath-test**.
 ```bash
-open http://localhost:8501 & docker run --rm --name gradpath-test -p 8501:8501 gradpath
+(sleep 3 && open http://localhost:8501) & \
+docker run --rm --name gradpath-test -p 8501:8501 gradpath
 ```
 
 ### 4. Check the Output Files
@@ -65,6 +66,7 @@ outputs/priority_students.csv
 
 To view the dashboard:
 
+The dashboard should open automatically in a browswer window. You may need to hit refresh. If it fails to open you can...
 Select **http://localhost:8501/** in the text that appears here:
 ```bash
   Local URL: http://localhost:8501
@@ -192,9 +194,11 @@ gradpath/
 │   └── priority_students.csv
 │
 ├── app.py
-├── requirements.txt
+├── Dockerfile
+├── PLANNING.md
 ├── README.md
-└── PLANNING.md
+├── requirements.txt
+└── run.sh
 ```
 
 ## Data Files
